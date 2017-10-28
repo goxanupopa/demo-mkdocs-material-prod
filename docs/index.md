@@ -1,6 +1,6 @@
 # Continuous Deployment With Static Site Generators in Ten Steps
 
-https://github.com/cd-static-gen/
+https://github.com/goffinet/cd-staticgen/
 
 English version. There is no French version.
 
@@ -218,7 +218,9 @@ What is Netlify-CMS ?
 
 Source : https://www.netlifycms.org/docs/intro/.
 
-Netlify [this project](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms) Netlify-CMS and **enable github identity service in the netlify settings**.
+Take a test drive : Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. this example here is the [Kaldi coffee company template](https://github.com/netlify-templates/one-click-hugo-cms) : Netlify [this project](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms) Netlify CMS and **enable github identity service in the netlify settings**.
+
+Other Netlify templates are avaible here : https://github.com/netlify-templates.
 
 ### 10.4. Hosting sites with gh-pages
 
