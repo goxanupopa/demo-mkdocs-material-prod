@@ -1,0 +1,53 @@
+site_name: 'demo-mkdocs-material'
+theme_dir: 'material/'
+theme: 'material'
+site_description: 'demo-mkdocs-material'
+site_author: 'François-Emmanuel Goffinet'
+site_url: 'https://demo-mkdocs-material.goffinet.org/'
+google_analytics:
+  - 'UA-21733018-11'
+  - 'auto'
+extra:
+  feature:
+    tabs: false
+  palette:
+    primary: 'deep orange'
+    accent: 'blue'
+  disqus: 'www-goffinet-org'
+  logo:
+    icon: 'school'
+  social:
+    - type: 'github'
+      link: 'https://github.com/goffinet'
+    - type: 'twitter'
+      link: 'https://twitter.com/fegoffinet'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/fegoffinet/'
+    - type: 'building-o'
+      link : 'https://www.goffinet.org'
+    - type: 'book'
+      link : 'https://biblio.goffinet.org'
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc(permalink=true)
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+pages:
+- 'Présentation du document': 'index.md'
+- 'Chapitre 1':
+  - 'markdown': 'markdown-styling.md'
