@@ -1,6 +1,25 @@
-# Learn Continuous Deployment With Static Site Generators
+# Continuous Deployment With Static Site Generators in Ten Steps
 
-## 1. What is Continuous deployment ?
+https://github.com/cd-static-gen/
+
+English version. There is no French version.
+
+## Summary
+
+This document pursues the educational objective of learning Continuous deployment With static site generators in ten steps :
+
+1. What is continuous deployment ?
+2. What is a static site generator ?
+3. Connect to GitHub.
+4. Deploy this site with Netlify.
+5. Configure DNS Service and settings
+6. Setup a custom domain
+7. Secure your site with HTTPS
+8. Customize your site
+9. Suggested actions
+10. Other projects
+
+## 1. What is continuous deployment ?
 
 Continuous deployment can be thought of as an extension of [continuous integration](https://www.agilealliance.org/glossary/continuous-integration/), aiming at minimizing [lead time](https://www.agilealliance.org/glossary/lead-time/), the time elapsed between development writing one new line of code and this new code being used by live users, in production.
 
@@ -22,7 +41,6 @@ See this source : https://www.oreilly.com/ideas/static-site-generators.
 * There is no database.
 * Static sites are HTML, CSS, and JavaScript.
 * Performance, Hosting, Security, Content versioning are benefits of Static Sites.
-
 
 **Practice** : Learn about [MkDocs](http://www.mkdocs.org/) and [Material for MkDocs](http://squidfunk.github.io/mkdocs-material/).
 
@@ -83,7 +101,7 @@ Here is the best part, [Deploy this site with Netlify.](https://app.netlify.com/
 
 **Practice :** discover the Netlify interface and features.
 
-## 5. DNS Service and settings
+## 5. Configure  DNS Service and settings
 
 **Practice :** Distinguish Domain Registrar service and DNS Service.
 
@@ -144,6 +162,7 @@ git push
 * Create a [Google Analytics](https://analytics.google.com/) a site with a following ID.
 * Create a site in your [disqus account](https://disqus.com/admin/).
 * Register the site to [Google Search console](https://www.google.com/webmasters/tools/home?hl=fr&pli=1) and launch the site indexation.
+* Integrate Mailchimp forms.
 
 ## 10. Other projects
 
