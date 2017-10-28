@@ -31,10 +31,7 @@ See this source : https://www.oreilly.com/ideas/static-site-generators.
 
 ![](http://squidfunk.github.io/mkdocs-material/images/material.png)
 
-**Practice :** See the [advantages and the disadvantages](https://www.quora.com/What-are-the-pros-and-cons-of-using-static-site-generators) of [static website generators](https://www.staticgen.com/).
-
 **Practice :** You can choose so many projects using [static site generator](https://www.staticgen.com/).
-
 
 ## 3. Connect to GitHub
 
