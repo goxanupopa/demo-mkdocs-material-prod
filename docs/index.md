@@ -26,10 +26,10 @@ See this source : https://www.oreilly.com/ideas/static-site-generators.
 
 **Practice** : Learn about [MkDocs](http://www.mkdocs.org/) and [Material for MkDocs](http://squidfunk.github.io/mkdocs-material/).
 
-![](http://squidfunk.github.io/mkdocs-material/images/material.png)
-
 * MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
 * Material is a theme for MkDocs. It is built using [Google's Material Design guidelines](https://material.io/guidelines/material-design/).
+
+![](http://squidfunk.github.io/mkdocs-material/images/material.png)
 
 **Practice :** See the [advantages and the disadvantages](https://www.quora.com/What-are-the-pros-and-cons-of-using-static-site-generators) of [static website generators](https://www.staticgen.com/).
 
