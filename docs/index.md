@@ -12,22 +12,22 @@ This document pursues the educational objective of learning Continuous deploymen
 2. What is a static site generator ?
 3. Connect to GitHub.
 4. Deploy this site with Netlify.
-5. Configure DNS Service and settings
-6. Setup a custom domain
-7. Secure your site with HTTPS
-8. Customize your site
-9. Suggested actions
-10. Other projects
+5. Configure DNS Service and settings.
+6. Setup a custom domain.
+7. Secure your site with HTTPS.
+8. Customize your site.
+9. Suggested actions.
+10. Other projects.
 
 ## 1. What is continuous deployment ?
 
 Continuous deployment can be thought of as an extension of [continuous integration](https://www.agilealliance.org/glossary/continuous-integration/), aiming at minimizing [lead time](https://www.agilealliance.org/glossary/lead-time/), the time elapsed between development writing one new line of code and this new code being used by live users, in production.
 
-Source : https://www.agilealliance.org/glossary/continuous-deployment/
+Source : https://www.agilealliance.org/glossary/continuous-deployment/.
 
 ![](https://puppet.com/sites/default/files/2016-09/puppet_continuous_diagram.gif)
 
-Source : https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff
+Source : https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff.
 
 ## 2. What is a static site generator ?
 
@@ -96,8 +96,8 @@ In one word: automation. The less work you have to do when performing repetitive
 
 Deploy this site with Netlify :
 
-1. Here is the best part, [Deploy this site with Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/demo-mkdocs-material)
-2. Choose a repository name, for example : `mysite-dev`
+1. Here is the best part, [Deploy this site with Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/demo-mkdocs-material).
+2. Choose a repository name, for example : `mysite-dev`.
 3. Click on "Save and deploy".
 
 **Practice :** discover the Netlify interface and features.
@@ -110,19 +110,19 @@ Deploy this site with Netlify :
 
 **Practice :** Learn [what is cloudflare](https://blog.cloudflare.com/what-is-cloudflare/).
 
-1. Get a domaine name (https://www.ovh.com/fr/domaines/) : for example, `example.com`
-2. Choose Cloudflare NS IP addresses
-3. Choose a DNS service (https://www.cloudflare.com/)
-4. Create a CNAME `mysite mysite-dev.netlify.com`
+1. Get a domaine name (https://www.ovh.com/fr/domaines/) : for example, `example.com`.
+2. Choose Cloudflare NS IP addresses.
+3. Choose a DNS service (https://www.cloudflare.com/).
+4. Create a CNAME `mysite mysite-dev.netlify.com`.
 
 ## 6. Setup a custom domain
 
 Setup a custom domain :
 
 1. Go to "mysite/settings/general".
-2. Click on the button "Change site name" : for example `mysite`
-3. Go to "Settings/Somain management/Domains"
-4. Click on the button "Add a custom domain" : `mysite.example.com`
+2. Click on the button "Change site name" : for example `mysite`.
+3. Go to "Settings/Somain management/Domains".
+4. Click on the button "Add a custom domain" : `mysite.example.com`.
 
 ## 7. Secure your site with HTTPS
 
@@ -141,11 +141,11 @@ Secure your site with HTTPS :
 
 ## 8. Customize your site
 
-**Practice :** Review git with or with .
+**Practice :** Review git with https://try.github.io/ or with https://git-scm.com/book/en/v2/.
 
-**Practice :** Learn the Markdown Language : Markdown is essentially a syntax for a simple, easy-to-read, plain text format that is designed to be converted to HTML ([source](https://www.oreilly.com/ideas/static-site-generators)). Most blog engines have started offering support for Markdown, including Wordpress.
+**Practice :** [Learn the Markdown Language](https://www.markdowntutorial.com/) : Markdown is essentially a syntax for a simple, easy-to-read, plain text format that is designed to be converted to HTML ([source](https://www.oreilly.com/ideas/static-site-generators)). Most blog engines have started offering support for Markdown, including Wordpress.
 
-**Practice :** Install localy a web-development tools offer Markdown support out of the box, including [Sublime Text](http://www.sublimetext.com/), [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/), or [Brackets](http://brackets.io/).
+**Practice :** Install localy a web-development tools that offers Markdown support out of the box, as [Sublime Text](http://www.sublimetext.com/), [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/), or [Brackets](http://brackets.io/).
 
 Customize your site :
 
@@ -194,9 +194,9 @@ What is Gitbook ?
 
 >Complete documentation is available at [toolchain.gitbook.com](http://toolchain.gitbook.com/).
 
-[Netlify this](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/gitbooktest) gitbook projects
+[Netlify this](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/gitbooktest) gitbook projects.
 
-Source : https://github.com/GitbookIO/gitbook and https://github.com/rubenoid/gitbooktest
+Source : https://github.com/GitbookIO/gitbook and https://github.com/rubenoid/gitbooktest.
 
 ### 10.3. Netlify-CMS
 
@@ -216,7 +216,7 @@ What is Netlify-CMS ?
 >* Flexible content types: specify an unlimited number of content types with custom fields.
 >* Fully extensible: create custom-styled previews, UI widgets, and editor plugins.
 
-Source : https://www.netlifycms.org/docs/intro/
+Source : https://www.netlifycms.org/docs/intro/.
 
 Netlify [this project](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms) Netlify-CMS and **enable github identity service in the netlify settings**.
 
@@ -224,4 +224,4 @@ Netlify [this project](https://app.netlify.com/start/deploy?repository=https://g
 
 ![](https://pages.github.com/images/slideshow/yeoman.png)
 
-Hosting with GitHub Pages : https://pages.github.com/
+Hosting with GitHub Pages : https://pages.github.com/.
