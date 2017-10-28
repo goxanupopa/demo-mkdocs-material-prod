@@ -65,9 +65,9 @@ Source : https://en.wikipedia.org/wiki/Git
 
 **Practice :** [Learn Git](https://try.github.io/) and GitHub.
 
-* Create a GitHub user account.
-* Connect to Github.
-* Install [`git`](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or [`GitHub Desktop`](https://help.github.com/desktop/guides/getting-started-with-github-desktop/installing-github-desktop/#platform-windows) localy.
+1. Create a GitHub user account.
+2. Connect to Github.
+3. Install [`git`](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or [`GitHub Desktop`](https://help.github.com/desktop/guides/getting-started-with-github-desktop/installing-github-desktop/#platform-windows) localy.
 
 ## 4. Deploy this site with Netlify
 
@@ -94,10 +94,11 @@ In one word: automation. The less work you have to do when performing repetitive
 * [Gulp](https://gulpjs.com/) : gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.
 * [Broccoli](https://github.com/broccolijs/broccoli) : A fast, reliable asset pipeline, supporting constant-time rebuilds and compact build definitions. Comparable to the Rails asset pipeline in scope, though it runs on Node and is backend-agnostic.
 
-Here is the best part, [Deploy this site with Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/demo-mkdocs-material)
+Deploy this site with Netlify :
 
-* Choose a repository name, for example : `mysite-dev`
-* Click on "Save and deploy".
+1. Here is the best part, [Deploy this site with Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/demo-mkdocs-material)
+2. Choose a repository name, for example : `mysite-dev`
+3. Click on "Save and deploy".
 
 **Practice :** discover the Netlify interface and features.
 
@@ -111,15 +112,17 @@ Here is the best part, [Deploy this site with Netlify.](https://app.netlify.com/
 
 1. Get a domaine name (https://www.ovh.com/fr/domaines/) : for example, `example.com`
 2. Choose Cloudflare NS IP addresses
-* Choose a DNS service (https://www.cloudflare.com/)
-* Create a CNAME `mysite mysite-dev.netlify.com`
+3. Choose a DNS service (https://www.cloudflare.com/)
+4. Create a CNAME `mysite mysite-dev.netlify.com`
 
 ## 6. Setup a custom domain
 
-1. Go to "mysite/settings/general"
-* Click on the button "Change site name" : for example `mysite`
-* Go to "Settings/Somain management/Domains"
-* Click on the button "Add a custom domain" : `mysite.example.com`
+Setup a custom domain :
+
+1. Go to "mysite/settings/general".
+2. Click on the button "Change site name" : for example `mysite`
+3. Go to "Settings/Somain management/Domains"
+4. Click on the button "Add a custom domain" : `mysite.example.com`
 
 ## 7. Secure your site with HTTPS
 
@@ -129,10 +132,12 @@ Here is the best part, [Deploy this site with Netlify.](https://app.netlify.com/
 
 Let’s Encrypt gives people the digital certificates they need in order to enable HTTPS (SSL/TLS) for websites, for free, in the most user-friendly way we can. We do this because we want to create a more secure and privacy-respecting Web.
 
-1. Go to Settings/Domain management/HTTPS
-* Verify DNS is configured correctly before enabling HTTPS : click on the button "Verify DNS Configuration".
-* Provision a certificate for your domain and enable HTTPS : click on the button "provision a certificate for your domain and enable HTTPS".
-* Click on "Force HTTPS" after the certificate generation.
+Secure your site with HTTPS :
+
+1. Go to Settings/Domain management/HTTPS.
+2. Verify DNS is configured correctly before enabling HTTPS : click on the button "Verify DNS Configuration".
+3. Provision a certificate for your domain and enable HTTPS : click on the button "provision a certificate for your domain and enable HTTPS".
+4. Click on "Force HTTPS" after the certificate generation.
 
 ## 8. Customize your site
 
@@ -142,10 +147,12 @@ Let’s Encrypt gives people the digital certificates they need in order to enab
 
 **Practice :** Install localy a web-development tools offer Markdown support out of the box, including [Sublime Text](http://www.sublimetext.com/), [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/), or [Brackets](http://brackets.io/).
 
-* Clone localy the repository `https://github.com/myaccount/mysite-dev/`.
-* Add some content pages  written in Markdown into the `docs/` directory.
-* Configure the `mkdocs.yml` file and adat the summary part.
-* Commit and push your new code with `git`.
+Customize your site :
+
+1. Clone localy the repository `https://github.com/myaccount/mysite-dev/`.
+2. Add some content pages  written in Markdown into the `docs/` directory.
+3. Configure the `mkdocs.yml` file and adat the summary part.
+4. Commit and push your new code with `git`.
 
 ```bash
 git clone https://github.com/myaccount/mysite-dev/
@@ -159,16 +166,19 @@ git push
 
 ## 9. Suggested actions
 
-* Create a [Google Analytics](https://analytics.google.com/) a site with a following ID.
-* Create a site in your [disqus account](https://disqus.com/admin/).
-* Register the site to [Google Search console](https://www.google.com/webmasters/tools/home?hl=fr&pli=1) and launch the site indexation.
-* Integrate Mailchimp forms.
+Suggested actions :
+
+1. Create a [Google Analytics](https://analytics.google.com/) a site with a following ID.
+2. Create a site in your [disqus account](https://disqus.com/admin/).
+3. Register the site to [Google Search console](https://www.google.com/webmasters/tools/home?hl=fr&pli=1) and launch the site indexation.
+4. Create a `docs/images/` to store pictures.
+5. Integrate Mailchimp forms, ...
 
 ## 10. Other projects
 
 ### 10.1. Pure static site
 
-* Pure static website : clone [this site](https://github.com/goffinet/crackciscotype7password) and/or [netlify it](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/crackciscotype7password) without any build command.
+Pure static website : clone [this site](https://github.com/goffinet/crackciscotype7password) and/or [netlify it](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/crackciscotype7password) without any build command.
 
 ### 10.2. Gitbook
 
@@ -184,9 +194,9 @@ What is Gitbook ?
 
 >Complete documentation is available at [toolchain.gitbook.com](http://toolchain.gitbook.com/).
 
-* [Netlify this](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/gitbooktest) gitbook projects
+[Netlify this](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/gitbooktest) gitbook projects
 
-Source : https://github.com/GitbookIO/gitbook
+Source : https://github.com/GitbookIO/gitbook and https://github.com/rubenoid/gitbooktest
 
 ### 10.3. Netlify-CMS
 
@@ -208,10 +218,10 @@ What is Netlify-CMS ?
 
 Source : https://www.netlifycms.org/docs/intro/
 
-* Netlify [this project](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms) Netlify-CMS
+Netlify [this project](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms) Netlify-CMS and **enable github identity service in the netlify settings**.
 
 ### 10.4. Hosting sites with gh-pages
 
 ![](https://pages.github.com/images/slideshow/yeoman.png)
 
-* Hosting with GitHub Pages : https://pages.github.com/
+Hosting with GitHub Pages : https://pages.github.com/
