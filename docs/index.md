@@ -1,8 +1,14 @@
 # Learn Continuous Deployment With Static Site Generators
 
-## 1. What is Continuous deployment
+## 1. What is Continuous deployment ?
 
 Continuous deployment can be thought of as an extension of [continuous integration](https://www.agilealliance.org/glossary/continuous-integration/), aiming at minimizing [lead time](https://www.agilealliance.org/glossary/lead-time/), the time elapsed between development writing one new line of code and this new code being used by live users, in production.
+
+Source : https://www.agilealliance.org/glossary/continuous-deployment/
+
+![](https://puppet.com/sites/default/files/2016-09/puppet_continuous_diagram.gif)
+
+Source : https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff
 
 ## 2. What is a static site generator ?
 
@@ -19,6 +25,8 @@ See this source : https://www.oreilly.com/ideas/static-site-generators.
 
 
 **Practice** : Learn about [MkDocs](http://www.mkdocs.org/) and [Material for MkDocs](http://squidfunk.github.io/mkdocs-material/).
+
+![](http://squidfunk.github.io/mkdocs-material/images/material.png)
 
 * MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
 * Material is a theme for MkDocs. It is built using [Google's Material Design guidelines](https://material.io/guidelines/material-design/).
@@ -150,6 +158,8 @@ git push
 
 What is Gitbook ?
 
+![](https://camo.githubusercontent.com/c1b6c55fca8e171120ce1fd73afcee699cc2a98f/68747470733a2f2f7261772e6769746875622e636f6d2f476974626f6f6b494f2f676974626f6f6b2f6d61737465722f707265766965772e706e67)
+
 >GitBook is a command line tool (and Node.js library) for building beautiful books using GitHub/Git and Markdown (or AsciiDoc). Here is an example: [Learn Javascript](https://www.gitbook.com/book/GitBookIO/javascript).
 
 >You can publish and host books easily online using [gitbook.com](https://www.gitbook.com). A desktop editor is [also available](https://www.gitbook.com/editor).
@@ -165,6 +175,8 @@ Source : https://github.com/GitbookIO/gitbook
 ### 10.3. Netlify-CMS
 
 What is Netlify-CMS ?
+
+![](https://www.netlifycms.org/img/demo.gif)
 
 >Netlify CMS is a Content Management System for static sites, allowing collaborators to create, edit, review, and publish content without writing code or dealing with version control. It brings the ease of WordPress-style editing to the simplicity and speed of static sites.
 
@@ -183,5 +195,7 @@ Source : https://www.netlifycms.org/docs/intro/
 * Netlify [this project](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms) Netlify-CMS
 
 ### 10.4. Hosting sites with gh-pages
+
+![](https://pages.github.com/images/slideshow/yeoman.png)
 
 * Hosting with GitHub Pages : https://pages.github.com/
