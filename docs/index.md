@@ -96,7 +96,7 @@ In one word: automation. The less work you have to do when performing repetitive
 
 Deploy this site with Netlify :
 
-1. Here is the best part, [Deploy this site with Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/demo-mkdocs-material).
+1. Here is the best part, [Deploy this site with Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/demo-mkdocs-material).
 2. Choose a repository name, for example : `mysite-dev`.
 3. Click on "Save and deploy".
 
