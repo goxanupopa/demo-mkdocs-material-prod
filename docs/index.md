@@ -6,7 +6,7 @@ English version. There is no French version.
 
 ## Summary
 
-This document pursues the educational objective of learning Continuous deployment With static site generators in ten steps :
+This document pursues the educational objective to learn continuous deployment with static site generators in ten steps :
 
 1. What is continuous deployment ?
 2. What is a static site generator ?
