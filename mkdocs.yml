@@ -1,18 +1,18 @@
 site_name: 'demo-mkdocs-material'
 theme_dir: 'material/'
 theme: 'material'
-site_description: 'demo-mkdocs-material'
+site_description: 'In this course we will learn how to deploy websites in continuous deployment with static site generators. We will try to understand numerous Web Dev and hosting concepts and to practice them.'
 site_author: 'François-Emmanuel Goffinet'
-site_url: 'https://demo-mkdocs-material.goffinet.org/'
+site_url: 'https://learn-cd-staticgen.goffinet.org/'
 google_analytics:
-  - 'UA-21733018-11'
+  - 'UA-21733018-12'
   - 'auto'
 extra:
   feature:
-    tabs: false
+    tabs: true
   palette:
-    primary: 'deep orange'
-    accent: 'blue'
+    primary: 'blue'
+    accent: 'red'
   disqus: 'www-goffinet-org'
   logo:
     icon: 'school'
@@ -48,6 +48,8 @@ markdown_extensions:
   - pymdownx.tasklist(custom_checkbox=true)
   - pymdownx.tilde
 pages:
-- 'Présentation du document': 'index.md'
-- 'Chapitre 1':
-  - 'markdown': 'markdown-styling.md'
+- 'Course Presentation': 'index.md'
+- 'Markdown Styling':
+  - 'Learn Markdown': 'markdown-styling.md'
+- 'En français':
+  - 'Préseantion du cours': 'noway.md'

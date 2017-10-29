@@ -4,28 +4,57 @@ https://github.com/goffinet/learn-cd-staticgen/
 
 English version in development. There is no French version yet.
 
+## Introduction
+
 In this course we will learn how to deploy websites in continuous deployment with static site generators. We will try to understand numerous concepts and to practice them :
 
-1. What is continuous deployment ?
-2. What is a static site generator ?
-3. Connect to GitHub.
-4. Deploy this site with Netlify.
-5. Configure DNS Service and settings.
-6. Setup a custom domain.
-7. Secure your site with HTTPS.
-8. Customize your site.
-9. Go further with static site generators.
-10. Other projects.
+1. Plan your project.
+2. What is continuous deployment ?
+3. What is a static site generator ?
+4. Connect to GitHub.
+5. Deploy this site with Netlify.
+6. Configure DNS Service and settings.
+7. Setup a custom domain.
+8. Secure your site with HTTPS.
+9. Customize your site.
+10. Go further with static site generators.
+11. Other projects with static site generator.
 
 To maintain our site we will use **git**, **GitHub**, and **Atom Editor**.
 
 To build, deploy, and host our examples we will use **Netlify**.
 
-We use **MkDocs**, **Hugo**, **GitBook** and **Jekyll** as static site generators.
+We will use **MkDocs**, **Hugo**, **GitBook** and **Jekyll** as static site generators.
 
 There is nothing to pay to use and to deploy those solutions.
 
-## 1. What is continuous deployment ?
+The main example try to answer the need of a web documentation system in 10 steps.
+
+After this first procedure, we will extend our knowledge with other projects.
+
+After that the section
+
+## 1. Plan your project
+
+For this first example, we will use this plan :
+
+Feature | Description
+--- | ---
+Static Generator  |  MkDocs
+Theme  | mkdocs-material
+Type  | Documentation
+Name  |  learn-cd-staticgen
+Original repository  | https://github.com/goffinet/learn-cd-staticgen-mkdocs-material/
+My projects repository  |  https://github.com/goffinet/learn-cd-staticgen-mkdocs-material-01/
+Title  |  Learn Continuous Deployment With Static Site Generators in Ten Steps
+Description  |  Learn Continuous Deployment With Static Site Generators in Ten Steps
+URL  |  https://learn-cd-staticgen.goffinet.org
+Website features  | Colors, Content, Structure, Images, Social Links urls, ...
+CD Service Provider  |  Netlify
+DNS Registrar  | OVH
+DNS Service  | Cloudflare without proxying
+
+## 2. What is continuous deployment ?
 
 Continuous deployment can be thought of as an extension of [continuous integration](https://www.agilealliance.org/glossary/continuous-integration/), aiming at minimizing [lead time](https://www.agilealliance.org/glossary/lead-time/), the time elapsed between development writing one new line of code and this new code being used by live users, in production.
 
@@ -35,7 +64,7 @@ Source : https://www.agilealliance.org/glossary/continuous-deployment/.
 
 Source : https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff.
 
-## 2. What is a static site generator ?
+## 3. What is a static site generator ?
 
 > The basic concept of a static site generator (aka static site engine) is simple: take dynamic content and data and generate static HTML/JavaScript/CSS files that can be deployed to the server. This idea isn't new.
 
@@ -57,7 +86,7 @@ See this excellent source : https://www.oreilly.com/ideas/static-site-generators
 
 **Practice :** You can choose so many projects using [static site generator](https://www.staticgen.com/). Do not hesitate to explore.
 
-## 3. Connect to GitHub
+## 4. Connect to GitHub
 
 >Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development, but it can be used to keep track of changes in any set of files. As a distributed revision control system it is aimed at speed, data integrity, and support for distributed, non-linear workflows.
 
@@ -75,7 +104,7 @@ Source : https://en.wikipedia.org/wiki/Git
 2. Connect to Github.
 3. Install [`git`](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or [`GitHub Desktop`](https://help.github.com/desktop/guides/getting-started-with-github-desktop/installing-github-desktop/#platform-windows) localy.
 
-## 4. Deploy this site with Netlify
+## 5. Deploy this site with Netlify
 
 **Practice :** [Learn what is Netlify (builds, deploys, and hosts websites in continous development mode)](https://www.netlify.com/docs/continuous-deployment/).
 
@@ -108,7 +137,7 @@ Deploy this site with Netlify :
 
 **Practice :** discover the Netlify interface and features.
 
-## 5. Configure  DNS Service and settings
+## 6. Configure  DNS Service and settings
 
 **Practice :** Distinguish Domain Registrar service and DNS Service.
 
@@ -121,7 +150,7 @@ Deploy this site with Netlify :
 3. Choose a DNS service (https://www.cloudflare.com/).
 4. Create a CNAME `mysite mysite-dev.netlify.com`.
 
-## 6. Setup a custom domain
+## 7. Setup a custom domain
 
 Setup a custom domain :
 
@@ -130,7 +159,7 @@ Setup a custom domain :
 3. Go to "Settings/Somain management/Domains".
 4. Click on the button "Add a custom domain" : `mysite.example.com`.
 
-## 7. Secure your site with HTTPS
+## 8. Secure your site with HTTPS
 
 **Practice :** Review HTTPS security and certificates concepts.
 
@@ -145,7 +174,7 @@ Secure your site with HTTPS :
 3. Provision a certificate for your domain and enable HTTPS : click on the button "provision a certificate for your domain and enable HTTPS".
 4. Click on "Force HTTPS" after the certificate generation.
 
-## 8. Customize your site
+## 9. Customize your site
 
 **Practice :** Review git with https://try.github.io/ or with https://git-scm.com/book/en/v2/.
 
@@ -173,7 +202,7 @@ git push
 You can find nice quality photos with https://unsplash.com/ (free). You can optimize and transform pictures with https://snappa.com/ (commercial).
 
 
-## 9. Go further with static site generators.
+## 10. Go further with static site generators.
 
 **Practice :** Review [MVC pattern theory](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets), [HTML](https://en.wikipedia.org/wiki/HTML) and [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization).
 
@@ -187,9 +216,9 @@ Go further with your new skills :
 6. [Change the MkDocs theme](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes) and exploit their CSS.
 7. Validate tour site with [Woorank](https://www.woorank.com/).
 
-## 10. Other projects
+## 11. Other projects with static site generator
 
-### 10.1. Pure static site
+### 1. Pure static site with Netlify
 
 _tested_
 
@@ -197,7 +226,7 @@ In this activity, we hardcode our site by ourself but we deploy and host the sit
 
 Pure static website : clone [this site](https://github.com/goffinet/crackciscotype7password) and/or [netlify it](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/crackciscotype7password) without any build command.
 
-### 10.2. Gitbook
+### 2. Gitbook Toolchain in Netlify
 
 _summarily tested_
 
@@ -217,11 +246,11 @@ What is Gitbook ?
 
 Source : https://github.com/GitbookIO/gitbook and https://github.com/rubenoid/gitbooktest.
 
-### 10.3. Netlify-CMS
+### 3. Netlify CMS
 
 _summarily tested_
 
-What is Netlify-CMS ?
+What is Netlify CMS ?
 
 ![](https://www.netlifycms.org/img/demo.gif)
 
@@ -243,21 +272,23 @@ Take a test drive : Netlify CMS can run in any frontend web environment, but the
 
 Other Netlify templates are avaible here : https://github.com/netlify-templates.
 
-### 10.4. Hosting sites with gh-pages
+### 4. Hosting sites with GitHub Pages
 
 _tested_
+
+Note : "gh-pages" = GitHub Pages
 
 ![](https://pages.github.com/images/slideshow/yeoman.png)
 
 Hosting with GitHub Pages : https://pages.github.com/.
 
-### 10.5. Webhooks with IFTT.
+### 5. Webhooks with IFTT
 
 _in project_
 
 * Using Netlify Webhooks With IFTTT: https://www.jordanmerrick.com/posts/netlify-and-ifttt/ , what is [IFTTT](https://ifttt.com/) ?
 
-### 10.6. Coding Modern Websites with the JAMstack
+### 6. Coding Modern Websites with the JAMstack
 
 _in project_
 
@@ -267,3 +298,7 @@ Another example with [Hugo](http://gohugo.io/) and Netlify-CMS :
 * https://www.netlify.com/blog/2017/10/05/coding-modern-websites-with-the-jamstack-part-1/
 * https://www.netlify.com/blog/2017/10/11/coding-modern-websites-with-the-jamstack-part-2/
 * https://www.netlify.com/blog/2017/10/25/coding-modern-websites-with-the-jamstack-part-3/
+
+### 7. Ghost Blog Self Hosting on Scaleway with Nginx, Cloudflare, and Let's Encrypt
+
+_in dev_
