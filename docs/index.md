@@ -194,7 +194,7 @@ Setup a custom domain :
 
 Let’s Encrypt gives people the digital certificates they need in order to enable HTTPS (SSL/TLS) for websites, for free, in the most user-friendly way we can. We do this because we want to create a more secure and privacy-respecting Web.
 
-Secure your site with HTTPS :
+In the Netlify web front-end interface, secure your site with HTTPS :
 
 1. Go to Settings/Domain management/HTTPS.
 2. Verify DNS is configured correctly before enabling HTTPS : click on the button "Verify DNS Configuration".
