@@ -227,3 +227,7 @@ Other Netlify templates are avaible here : https://github.com/netlify-templates.
 ![](https://pages.github.com/images/slideshow/yeoman.png)
 
 Hosting with GitHub Pages : https://pages.github.com/.
+
+## Notes
+
+* Using Netlify Webhooks With IFTTT: https://www.jordanmerrick.com/posts/netlify-and-ifttt/ , what is [IFTTT](https://ifttt.com/) ?
