@@ -5,7 +5,7 @@ site_description: 'In this course we will learn how to deploy websites in contin
 site_author: 'François-Emmanuel Goffinet'
 site_url: 'https://learn-cd-staticgen.goffinet.org/'
 google_analytics:
-  - !python/object/apply:os.getenv ["UA-21733018-12"]
+  - 'UA-21733018-12'
   - 'auto'
 copyright: 'Copyright &copy; 2017 François-Emmanuel Goffinet'
 repo_name: 'goffinet/learn-cd-staticgen'
