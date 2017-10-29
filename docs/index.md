@@ -2,6 +2,8 @@
 
 https://github.com/goffinet/learn-cd-staticgen/
 
+Description : In this course we will learn how to deploy websites in continuous deployment with static site generators. We will try to understand numerous Web Dev and hosting concepts and to practice them.
+
 English version in development first. There is no French version yet but it will be planned when the English version of the document will reach maturity.
 
 On trouvera ici une version en anglais en développement. La version française sera envisagée quand la version anglaise sera suffisamment éprouvée.
