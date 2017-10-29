@@ -8,6 +8,8 @@ On trouvera ici une version en anglais en développement. La version française 
 
 ## Presentation in English
 
+**Learn Continuous Deployment With Static Site Generators**
+
 [In the first part of this course](first-continous-deployment-project.md), you will learn how to deploy continuously a modern documentation website in HTTPS and CDN for free with Netlify.
 
 [In the secund part of this course](other-projects-with-static-site-generators.md), you will extend our knowledge with other projects.
