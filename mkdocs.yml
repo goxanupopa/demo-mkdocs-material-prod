@@ -1,15 +1,23 @@
+# Project information
+
 site_name: 'Learn Continuous Deployment With Static Site Generators'
 site_description: 'In this course we will learn how to deploy websites in continuous deployment with static site generators. We will try to understand numerous Web Dev and hosting concepts and to practice them.'
 site_author: 'François-Emmanuel Goffinet'
 site_url: 'https://learn-cd-staticgen.goffinet.org/'
 google_analytics:
-  - 'UA-21733018-12'
+  - !python/object/apply:os.getenv ["UA-21733018-12"]
   - 'auto'
-theme_dir: 'material/'
-theme: 'material'
 copyright: 'Copyright &copy; 2017 François-Emmanuel Goffinet'
 repo_name: 'goffinet/learn-cd-staticgen'
 repo_url: 'https://github.com/goffinet/learn-cd-staticgen/'
+
+# Theme
+
+theme_dir: 'material/'
+theme: 'material'
+
+# Options
+
 extra:
   language: en
   feature:
@@ -31,14 +39,21 @@ extra:
       link : 'https://www.goffinet.org'
     - type: 'book'
       link : 'https://biblio.goffinet.org'
+
+# Extensions
+
 markdown_extensions:
-  - admonition
-  - codehilite
-  - footnotes
-  - meta
-  - toc(permalink=true)
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
   - pymdownx.arithmatex
-  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.betterem:
+      smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
@@ -49,8 +64,12 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
-  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.tilde
+
+# Content structure
+
 pages:
 - 'Course Presentation': 'index.md'
 - 'In English':
