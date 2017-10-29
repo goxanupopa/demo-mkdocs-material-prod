@@ -1,17 +1,11 @@
+{% set languages = "en" %}
+{% if config and config.extra %}
+  {% set languages = config.extra.language | default("en") %}
+{% endif %}
+{% if languages is string %}
+  {% set languages = languages.split(",") | map("trim") %}
+{% endif %}
+{% import "partials/language/" + (languages | first) + ".html" as lang %}
 {% macro t(key) %}{{ {
-  "language": "fr",
-  "edit.link.title": "Editer cette page",
-  "footer.previous": "Précédent",
-  "footer.next": "Prochain",
-  "meta.comments": "Commentaires",
-  "meta.source": "Source",
-  "search.languages": "fr",
-  "search.placeholder": "Recherche",
-  "search.result.placeholder": "Frappez votre recherche",
-  "search.result.none": "Aucn document trouvé",
-  "search.result.one": "1 document trouvé",
-  "search.result.other": "# documents trouvés",
-  "search.tokenizer": "[\s\-]+",
-  "source.link.title": "Aller au dépôt",
-  "toc.title": "Table des matières"
-}[key] }}{% endmacro %}
+  "search.languages": languages | join(", ")
+}[key] or lang.t(key) }}{% endmacro %}
