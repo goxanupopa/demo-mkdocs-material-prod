@@ -2,11 +2,9 @@
 
 https://github.com/goffinet/cd-staticgen/
 
-English version. There is no French version.
+English version. there is no French version yet.
 
-## Summary
-
-This document pursues the educational objective to learn continuous deployment with static site generators in ten steps :
+In this course we will learn how to deploy websites in continuous deployment with static site generators. We will try to understand numerous concepts and to practice them :
 
 1. What is continuous deployment ?
 2. What is a static site generator ?
@@ -16,8 +14,14 @@ This document pursues the educational objective to learn continuous deployment w
 6. Setup a custom domain.
 7. Secure your site with HTTPS.
 8. Customize your site.
-9. Suggested actions.
+9. Go further with static site generators.
 10. Other projects.
+
+To maintain our site we will use **git**, **GitHub**, and **Atom Editor**.
+
+To build, deploy, and host our examples we will use **Netlify**.
+
+We use **MkDocs**, **Hugo**, **GitBook** and Jekyll as static site generators.
 
 ## 1. What is continuous deployment ?
 
@@ -33,7 +37,7 @@ Source : https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-wh
 
 > The basic concept of a static site generator (aka static site engine) is simple: take dynamic content and data and generate static HTML/JavaScript/CSS files that can be deployed to the server. This idea isn't new.
 
-See this source : https://www.oreilly.com/ideas/static-site-generators.
+See this excellent source : https://www.oreilly.com/ideas/static-site-generators.
 
 * There are numerous services, both free and paid, that offer the ability to add dynamic aspects into static pages.
 * Static site files are delivered to the end user exactly as they are on the server.
@@ -164,15 +168,21 @@ git commit -m "site customization"
 git push
 ```
 
-## 9. Suggested actions
+You can find nice quality photos with https://unsplash.com/ (free). You can optimize and transform pictures with https://snappa.com/ (commercial).
 
-Suggested actions :
+
+## 9. Go further with static site generators.
+
+**Practice :** Review [MVC pattern theory](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets), [HTML](https://en.wikipedia.org/wiki/HTML) and [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization).
+
+Go further with your new skills :
 
 1. Create a [Google Analytics](https://analytics.google.com/) a site with a following ID.
 2. Create a site in your [disqus account](https://disqus.com/admin/).
 3. Register the site to [Google Search console](https://www.google.com/webmasters/tools/home?hl=fr&pli=1) and launch the site indexation.
 4. Create a `docs/images/` to store pictures.
-5. Integrate Mailchimp forms, ...
+5. Integrate Mailchimp forms.
+6. ...
 
 ## 10. Other projects
 
@@ -218,7 +228,7 @@ What is Netlify-CMS ?
 
 Source : https://www.netlifycms.org/docs/intro/.
 
-Take a test drive : Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. this example here is the [Kaldi coffee company template](https://github.com/netlify-templates/one-click-hugo-cms) : Netlify [this project](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms) Netlify CMS and **enable github identity service in the netlify settings**.
+Take a test drive : Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. this example here is the [Kaldi coffee company template](https://github.com/netlify-templates/one-click-hugo-cms) : Netlify [this project](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms) Netlify CMS and **enable github identity service in the netlify settings**. This site is running [Hugo static site generator](http://gohugo.io/).
 
 Other Netlify templates are avaible here : https://github.com/netlify-templates.
 
@@ -228,6 +238,15 @@ Other Netlify templates are avaible here : https://github.com/netlify-templates.
 
 Hosting with GitHub Pages : https://pages.github.com/.
 
-## Notes
+### 10.5. Webhooks with IFTT.
 
 * Using Netlify Webhooks With IFTTT: https://www.jordanmerrick.com/posts/netlify-and-ifttt/ , what is [IFTTT](https://ifttt.com/) ?
+
+### 10.6. Coding Modern Websites with the JAMstack
+
+Another example with [Hugo](http://gohugo.io/) and Netlify-CMS :
+
+* https://www.netlify.com/blog/2016/11/15/new-to-jamstack-how-to-make-a-site-from-a-to-z/
+* https://www.netlify.com/blog/2017/10/05/coding-modern-websites-with-the-jamstack-part-1/
+* https://www.netlify.com/blog/2017/10/11/coding-modern-websites-with-the-jamstack-part-2/
+* https://www.netlify.com/blog/2017/10/25/coding-modern-websites-with-the-jamstack-part-3/
