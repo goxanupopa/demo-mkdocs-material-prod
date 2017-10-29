@@ -101,7 +101,7 @@ See this excellent source : https://www.oreilly.com/ideas/static-site-generators
 
 ![](http://squidfunk.github.io/mkdocs-material/images/material.png)
 
-**Practice :** You can choose so many projects using [static site generator](https://www.staticgen.com/). Do not hesitate to explore.
+**Practice :** You can choose so many projects using [static site generator](https://www.staticgen.com/). Do not hesitate to explore staticgen.com.
 
 ## 4. Connect to GitHub
 
