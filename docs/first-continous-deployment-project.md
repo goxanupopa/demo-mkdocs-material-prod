@@ -89,7 +89,7 @@ See this excellent source : https://www.oreilly.com/ideas/static-site-generators
 * Static sites are HTML, CSS, and JavaScript.
 * Performance, Hosting, Security, Content versioning are benefits of Static Sites.
 
-**Practice** : Learn about [MkDocs](http://www.mkdocs.org/) and [Material for MkDocs](http://squidfunk.github.io/mkdocs-material/).
+**Practice :** Learn about [MkDocs](http://www.mkdocs.org/) and [Material for MkDocs](http://squidfunk.github.io/mkdocs-material/).
 
 * MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
 * Material is a theme for MkDocs. It is built using [Google's Material Design guidelines](https://material.io/guidelines/material-design/).

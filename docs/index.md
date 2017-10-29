@@ -2,15 +2,11 @@
 
 https://github.com/goffinet/learn-cd-staticgen/
 
-Description : In this course we will learn how to deploy websites in continuous deployment with static site generators. We will try to understand numerous Web Dev and hosting concepts and to practice them.
-
-English version in development first. There is no French version yet but it will be planned when the English version of the document will reach maturity.
-
-On trouvera ici une version en anglais en développement. La version française sera envisagée quand la version anglaise sera suffisamment éprouvée.
-
 ## Presentation in English
 
 **Learn Continuous Deployment With Static Site Generators**
+
+Description : In this course we will learn how to deploy websites in continuous deployment with static site generators. We will try to understand numerous Web Dev and hosting concepts and to practice them.
 
 [In the first part of this course](first-continous-deployment-project.md), you will learn how to deploy continuously a modern documentation website in HTTPS and CDN for free with Netlify.
 
@@ -26,9 +22,11 @@ There is nothing to pay to use and to deploy those solutions. Only one valid ema
 
 **Apprendre le développement continu avec des générateurs de site statique.**
 
-Dans la première partie de ce cours, vous apprendrez à déployer en développement continu un site Web documentaire en HTTPS et en CDN gratuitement avec Netlify.
+Description: Dans ce cours, nous allons apprendre à déployer des sites Web en déploiement continu avec des générateurs de sites statiques. Nous essaierons de comprendre de nombreux concepts de développement Web et d'hébergement et de les mettre en pratique.
 
-Dans la deuxième partie du document, vous étendrez vos compétences avec d'autres projets.
+[Dans la première partie de ce cours](premier-projet-en-deploiement-continu.md), vous apprendrez à déployer en développement continu un site Web documentaire en HTTPS et en CDN gratuitement avec Netlify.
+
+[Dans la deuxième partie du document](autres-projets-avec-generateur-de-site-statique.md), vous étendrez vos compétences avec d'autres projets.
 
 Pour maintenir nos sites, nous utiliserons **git**, **GitHub** et **Atom Editor**. Pour construire, déployer et héberger nos exemples nous utiliserons le fournisseur de services **Netlify**. Enfin, nous utiliserons **MkDocs**, **Hugo**, **GitBook** et **Jekyll** comme générateurs de site statique. Aussi, nous suggérons de prendre **Cloudflare** comme serveur DNS Server et **OVH** comme "Domain Registrar".
 
