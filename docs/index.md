@@ -209,7 +209,7 @@ In the Netlify web front-end interface, secure your site with HTTPS :
 
 **Practice :** Install localy a web-development tools that offers Markdown support out of the box, as [Sublime Text](http://www.sublimetext.com/), [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/), or [Brackets](http://brackets.io/).
 
-Customize your site :
+Localy customize your site and deploy it :
 
 1. Clone localy the repository `https://github.com/myaccount/mysite-dev/`.
 2. Add some content pages  written in Markdown into the `docs/` directory.
@@ -226,8 +226,9 @@ git commit -m "site customization"
 git push
 ```
 
-You can find nice quality photos with https://unsplash.com/ (free). You can optimize and transform pictures with https://snappa.com/ (commercial).
+Please return to your Netlify web front-end to verify your build and the website deployment.
 
+Note : You can find nice quality photos with https://unsplash.com/ (free). You can optimize and transform pictures with https://snappa.com/ (commercial).
 
 ## 10. Go further with static site generators.
 
