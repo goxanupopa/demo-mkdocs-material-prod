@@ -12,7 +12,7 @@ extra:
     tabs: true
   palette:
     primary: 'blue'
-    accent: 'red'
+    accent: 'purple'
   disqus: 'www-goffinet-org'
   logo:
     icon: 'school'
