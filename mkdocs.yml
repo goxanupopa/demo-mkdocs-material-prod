@@ -13,7 +13,7 @@ repo_url: 'https://github.com/goffinet/learn-cd-staticgen/'
 extra:
   language: en
   feature:
-    tabs: false
+    tabs: true
   palette:
     primary: 'blue'
     accent: 'purple'
@@ -53,7 +53,8 @@ markdown_extensions:
   - pymdownx.tilde
 pages:
 - 'Course Presentation': 'index.md'
-- '1. First continuous deployment project': 'first-continous-deployment-project.md'
-- '2. Other Projects with static site generators': 'other-projects-with-static-site-generators.md'
-- '3. Learn Markdown': 'markdown-styling.md'
-- '4. En français': 'noway.md'
+- 'In English':
+  - '1. First continuous deployment project': 'first-continous-deployment-project.md'
+  - '2. Other Projects with static site generators': 'other-projects-with-static-site-generators.md'
+  - '3. Learn Markdown': 'markdown-styling.md'
+- 'En français': 'noway.md'
