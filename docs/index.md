@@ -179,7 +179,7 @@ Deploy this site with Netlify :
 
 ## 7. Setup a custom domain
 
-Setup a custom domain :
+In the Netlify web front-end interface, setup a custom domain :
 
 1. Go to "mysite/settings/general".
 2. Click on the button "Change site name" : for example `mysite`.
