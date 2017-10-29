@@ -1,4 +1,4 @@
-site_name: 'demo-mkdocs-material'
+site_name: 'Learn Continuous Deployment With Static Site Generators'
 site_description: 'In this course we will learn how to deploy websites in continuous deployment with static site generators. We will try to understand numerous Web Dev and hosting concepts and to practice them.'
 site_author: 'François-Emmanuel Goffinet'
 site_url: 'https://learn-cd-staticgen.goffinet.org/'
@@ -8,8 +8,8 @@ google_analytics:
 theme_dir: 'material/'
 theme: 'material'
 copyright: 'Copyright &copy; 2017 François-Emmanuel Goffinet'
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: 'goffinet/learn-cd-staticgen'
+repo_url: 'https://github.com/goffinet/learn-cd-staticgen/'
 extra:
   language: en
   feature:
