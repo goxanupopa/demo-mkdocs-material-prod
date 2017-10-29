@@ -32,8 +32,6 @@ The main example try to answer the need of a web documentation system in 10 step
 
 After this first procedure, we will extend our knowledge with other projects.
 
-After that the section
-
 ## 1. Plan your project
 
 For this first example, we will use this plan :
