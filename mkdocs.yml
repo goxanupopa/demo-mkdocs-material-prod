@@ -52,5 +52,4 @@ pages:
 - '1. First continuous deployment project': 'first-continous-deployment-project.md'
 - '2. Other Projects with static site generators': 'other-projects-with-static-site-generators.md'
 - '3. Learn Markdown': 'markdown-styling.md'
-- '4. En français':
-  - 'Présentation du cours': 'noway.md'
+- '4. En français': 'noway.md'
