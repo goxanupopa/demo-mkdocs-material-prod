@@ -1,8 +1,4 @@
-# Learn Continuous Deployment With Static Site Generators
-
-https://github.com/goffinet/learn-cd-staticgen/
-
-English version in development. There is no French version yet.
+# First continuous deployment project
 
 ## Introduction
 
