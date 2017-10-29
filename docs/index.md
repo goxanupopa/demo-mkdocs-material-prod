@@ -12,12 +12,11 @@ On trouvera ici une version en anglais en développement. La version française 
 
 [In the secund part of this course](other-projects-with-static-site-generators.md), you will extend our knowledge with other projects.
 
-To maintain our site we will use **git**, **GitHub**, and **Atom Editor**. To build, deploy, and host our examples we will use **Netlify**. We will use **MkDocs**, **Hugo**, **GitBook** and **Jekyll** as static site generators.
+To maintain our sites we will use **git**, **GitHub**, and **Atom Editor**. To build, deploy, and host our examples we will use **Netlify**. We will use **MkDocs**, **Hugo**, **GitBook** and **Jekyll** as static site generators. We suggest to use **Cloudflare** as DNS Server and **OVH** as Domain Registrar.
 
-There is nothing to pay to use and to deploy those solutions.
+This course is the opportunity to review protocols like **HTTP**, **HTTPS/TLS**, **DNS**, but also concepts and architectures like CI/CD, versionning, MVC, HTML, JS, CSS, SEO, CDN, website analytics, ...
 
-The main example try to answer the need of a web documentation system in 10 steps.
-
+There is nothing to pay to use and to deploy those solutions. Only one valid email is required.
 
 ## Présentation en français
 
@@ -27,4 +26,6 @@ Dans la première partie de ce cours, vous apprendrez à déployer en développe
 
 Dans la deuxième partie du document, vous étendrez vos compétences avec d'autres projets.
 
-L'exemple principal répond au besoin d'un système de documentation à déployer en 10 étapes.
+Pour maintenir nos sites, nous utiliserons **git**, **GitHub** et **Atom Editor**. Pour construire, déployer et héberger nos exemples nous utiliserons le fournisseur de services **Netlify**. Enfin, nous utiliserons **MkDocs**, **Hugo**, **GitBook** et **Jekyll** comme générateurs de site statique. Aussi, nous suggérons de prendre **Cloudflare** comme serveur DNS Server et **OVH** comme "Domain Registrar".
+
+Ce cours est l'occasion de réviser des protocoles comme **HTTP**, **HTTPS/TLS**, **DNS**, mais aussi des concepts et des architectures comme CI/CD, versionning, MVC, HTML, JS, CSS, SEO, CDN, website analytics, ...
