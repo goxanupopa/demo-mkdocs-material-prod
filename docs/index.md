@@ -8,11 +8,7 @@ English version in development. There is no French version yet.
 
 [In the secund part of this course](other-projects-with-static-site-generators.md), we will extend our knowledge with other projects.
 
-To maintain our site we will use **git**, **GitHub**, and **Atom Editor**.
-
-To build, deploy, and host our examples we will use **Netlify**.
-
-We will use **MkDocs**, **Hugo**, **GitBook** and **Jekyll** as static site generators.
+To maintain our site we will use **git**, **GitHub**, and **Atom Editor**. To build, deploy, and host our examples we will use **Netlify**. We will use **MkDocs**, **Hugo**, **GitBook** and **Jekyll** as static site generators.
 
 There is nothing to pay to use and to deploy those solutions.
 

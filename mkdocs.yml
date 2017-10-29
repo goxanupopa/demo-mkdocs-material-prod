@@ -13,7 +13,7 @@ repo_url: 'https://github.com/goffinet/learn-cd-staticgen/'
 extra:
   language: en
   feature:
-    tabs: true
+    tabs: false
   palette:
     primary: 'blue'
     accent: 'purple'
