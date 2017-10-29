@@ -79,3 +79,4 @@ pages:
 - 'En français':
   - 'Premier projet en déploiement continu': 'noway.md'
   - 'Autre projets avec générateur de site statique': 'noway.md'
+  - 'Apprendre à écrire en Markdown': 'noway.md'
