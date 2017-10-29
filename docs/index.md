@@ -20,7 +20,7 @@ There is nothing to pay to use and to deploy those solutions. Only one valid ema
 
 ## Présentation en français
 
-**Apprendre le développement continu avec des générateurs de sites statiques.**
+**Apprendre le développement continu avec des générateurs de site statique.**
 
 Dans la première partie de ce cours, vous apprendrez à déployer en développement continu un site Web documentaire en HTTPS et en CDN gratuitement avec Netlify.
 
