@@ -115,6 +115,16 @@ See this excellent source : https://www.oreilly.com/ideas/static-site-generators
 
 Source : https://en.wikipedia.org/wiki/Git
 
+What is GitHub ?
+
+> GitHub is a web-based Git or version control repository and Internet hosting service. It is mostly used for code. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.
+
+>As of April 2017, GitHub reports having almost 20 million users and 57 million repositories, making it the largest host of source code in the world.
+
+>GitHub has a mascot called Octocat, a cat with five tentacles and a human-like face.
+
+Source : https://en.wikipedia.org/wiki/GitHub
+
 **Practice :** [Learn Git](https://try.github.io/) and GitHub.
 
 1. Create a GitHub user account.
