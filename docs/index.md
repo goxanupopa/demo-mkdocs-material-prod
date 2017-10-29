@@ -31,3 +31,5 @@ Dans la deuxième partie du document, vous étendrez vos compétences avec d'aut
 Pour maintenir nos sites, nous utiliserons **git**, **GitHub** et **Atom Editor**. Pour construire, déployer et héberger nos exemples nous utiliserons le fournisseur de services **Netlify**. Enfin, nous utiliserons **MkDocs**, **Hugo**, **GitBook** et **Jekyll** comme générateurs de site statique. Aussi, nous suggérons de prendre **Cloudflare** comme serveur DNS Server et **OVH** comme "Domain Registrar".
 
 Ce cours est l'occasion de réviser des protocoles comme **HTTP**, **HTTPS/TLS**, **DNS**, mais aussi des concepts et des architectures comme CI/CD, versionning, MVC, HTML, JS, CSS, SEO, CDN, website analytics, ...
+
+Il n'y a rien payer pour utiliser et déployer ces solutions. Seule une adresse de courrier électronique valide est nécessaire.
