@@ -1,8 +1,8 @@
-# Continuous Deployment With Static Site Generators in Ten Steps
+# Learn Continuous Deployment With Static Site Generators in Ten Steps
 
-https://github.com/goffinet/cd-staticgen/
+https://github.com/goffinet/learn-cd-staticgen/
 
-English version. there is no French version yet.
+English version in development. There is no French version yet.
 
 In this course we will learn how to deploy websites in continuous deployment with static site generators. We will try to understand numerous concepts and to practice them :
 
@@ -21,7 +21,9 @@ To maintain our site we will use **git**, **GitHub**, and **Atom Editor**.
 
 To build, deploy, and host our examples we will use **Netlify**.
 
-We use **MkDocs**, **Hugo**, **GitBook** and Jekyll as static site generators.
+We use **MkDocs**, **Hugo**, **GitBook** and **Jekyll** as static site generators.
+
+There is nothing to pay to use and to deploy those solutions.
 
 ## 1. What is continuous deployment ?
 
@@ -181,16 +183,23 @@ Go further with your new skills :
 2. Create a site in your [disqus account](https://disqus.com/admin/).
 3. Register the site to [Google Search console](https://www.google.com/webmasters/tools/home?hl=fr&pli=1) and launch the site indexation.
 4. Create a `docs/images/` to store pictures.
-5. Integrate Mailchimp forms.
-6. ...
+5. Integrate a Mailchimp form or a Twitter Widget, add adsense banner block.
+6. [Change the MkDocs theme](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes) and exploit their CSS.
+7. Validate tour site with [Woorank](https://www.woorank.com/).
 
 ## 10. Other projects
 
 ### 10.1. Pure static site
 
+_tested_
+
+In this activity, we hardcode our site by ourself but we deploy and host the site with Netlify; so there nothing to build on the provider.
+
 Pure static website : clone [this site](https://github.com/goffinet/crackciscotype7password) and/or [netlify it](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/crackciscotype7password) without any build command.
 
 ### 10.2. Gitbook
+
+_summarily tested_
 
 What is Gitbook ?
 
@@ -209,6 +218,8 @@ What is Gitbook ?
 Source : https://github.com/GitbookIO/gitbook and https://github.com/rubenoid/gitbooktest.
 
 ### 10.3. Netlify-CMS
+
+_summarily tested_
 
 What is Netlify-CMS ?
 
@@ -234,15 +245,21 @@ Other Netlify templates are avaible here : https://github.com/netlify-templates.
 
 ### 10.4. Hosting sites with gh-pages
 
+_tested_
+
 ![](https://pages.github.com/images/slideshow/yeoman.png)
 
 Hosting with GitHub Pages : https://pages.github.com/.
 
 ### 10.5. Webhooks with IFTT.
 
+_in project_
+
 * Using Netlify Webhooks With IFTTT: https://www.jordanmerrick.com/posts/netlify-and-ifttt/ , what is [IFTTT](https://ifttt.com/) ?
 
 ### 10.6. Coding Modern Websites with the JAMstack
+
+_in project_
 
 Another example with [Hugo](http://gohugo.io/) and Netlify-CMS :
 
