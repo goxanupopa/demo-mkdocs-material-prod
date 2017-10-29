@@ -58,3 +58,5 @@ pages:
   - '2. Other Projects with static site generators': 'other-projects-with-static-site-generators.md'
   - '3. Learn Markdown': 'markdown-styling.md'
 - 'En français': 'noway.md'
+  - 'Premier projet en déploiement continu': 'noway.md'
+  - 'Autre projets avec générateur de site statique': 'noway.md'
