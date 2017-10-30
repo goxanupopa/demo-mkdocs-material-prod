@@ -4,7 +4,7 @@
 
 Dans ce cours, vous apprendrez à :
 
-* Distinguer les concepts d'intégration continue (CI), de développement continu (CD) et de déploiement continu.
+* Distinguer les concepts d'intégration continue (CI), de livraison continue (CD) et de déploiement continu.
 * Définir un système de génération de sites statiques, ses avantages et ses inconvénients.
 * Se connecter au service GitHub et à utiliser l'outil `git` de manière basique.
 * Planifier votre projet de site Web.
