@@ -15,7 +15,7 @@ Dans ce cours, nous apprendrons comment déployer des sites Web en déploiement 
 9. Personnalisez votre site.
 10. Aller plus loin avec les générateurs de site statique.
 
-Pour maintenir notre site, nous utiliserons **git**, **GitHub** et **Atom Editor**.
+Pour maintenir notre site, nous utiliserons **Git**, **GitHub** et **Atom Editor**.
 
 Pour construire, déployer et héberger nos exemples, nous utiliserons **Netlify**.
 
@@ -99,7 +99,7 @@ Voir cette excellente source: https://www.oreilly.com/ideas/static-site-generato
 
 ## 4. Connectez-vous à GitHub
 
-Qu'est-ce que git ?
+Qu'est-ce que Git ?
 
 > Git est un système de contrôle de version pour suivre les changements dans les fichiers informatiques et coordonner le travail sur ces fichiers entre plusieurs personnes. Il est principalement utilisé pour la gestion de code source dans le développement de logiciels, mais il peut être utilisé pour suivre les changements dans n'importe quel ensemble de fichiers. En tant que système de contrôle de révision distribué, il vise la vitesse, l'intégrité des données et la prise en charge de flux de travail distribués et non linéaires.
 
@@ -113,7 +113,7 @@ Source: https://en.wikipedia.org/wiki/Git
 
 Qu'est-ce que GitHub ?
 
-> GitHub est un "repository" Git ou de contrôle de version basé Web et un service d'hébergement Internet. Il est principalement utilisé pour le code. Il offre toutes les fonctionnalités distribuées de contrôle de version et de gestion de code source (SCM) de Git, ainsi que l'ajout de ses propres fonctionnalités. Il fournit un contrôle d'accès et plusieurs fonctionnalités de collaboration telles que le suivi des bogues, les demandes de fonctionnalités, la gestion des tâches et les wikis pour chaque projet.
+> GitHub est un "repository" Git ou de contrôle de version basé Web et un service d'hébergement Internet. Il est principalement utilisé pour héberger du code. Il offre toutes les fonctionnalités distribuées de contrôle de version et de gestion de code source (SCM, _source code management_) de Git, ainsi que l'ajout de ses propres fonctionnalités. Il fournit un contrôle d'accès et plusieurs fonctionnalités de collaboration telles que le suivi des bogues, les demandes de fonctionnalités, la gestion des tâches et les wikis pour chaque projet.
 
 > Depuis avril 2017, GitHub compte près de 20 millions d'utilisateurs et 57 millions de dépôts, ce qui en fait la plus grande source de code source au monde.
 
@@ -125,7 +125,7 @@ Source: https://en.wikipedia.org/wiki/GitHub
 
 1. Créez un compte utilisateur GitHub.
 2. Connectez-vous à Github.
-3. Installez [`git`](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) ou [` GitHub Desktop`](https://help.github.com / desktop / guides / mise-en-marche-avec-github-desktop / installation-github-desktop / # plateforme-windows) localy.
+3. Installez le logiciel [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) ou le logiciel [` GitHub Desktop`](https://help.github.com / desktop / guides / mise-en-marche-avec-github-desktop / installation-github-desktop / # plateforme-windows) localy.
 
 ## 5. Déployez ce site avec Netlify
 
@@ -137,19 +137,19 @@ Fonctionnalités du plan personnel Netlify (gratuit):
 * Dépôts publics ou privés
 * HTTPS pour les domaines personnalisés
 * Déploiement continu
-* Manipulation de formulaire (BETA)
 * Soutien communautaire
+* Manipulation de formulaire (BETA)
 * Service d'identité (BETA)
 * Test de Split (BETA)
 * Passerelle Git (BETA)
 
 Source: https://www.netlify.com/pricing/
 
-**Pratique :** Voir ce qui est un outil de construction avant comme [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/) ou [Broccoli](https://github.com/broccolijs/broccoli) : des programmes d'exécution de tâches répétitives telles que minification, la compilation, les tests unitaires, etc.
+**Pratique :** Voir ce qu'est un "front end build tool" comme [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/) ou [Broccoli](https://github.com/broccolijs/broccoli) : des programmes d'exécution de tâches répétitives telles que minification, la compilation, les tests unitaires, etc.
 
 Déployez ce site avec Netlify:
 
-1. Voici la meilleure partie, [Déployer ce site avec Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/demo-mkdocs-material).
+1. Voici la meilleure partie, [Déployez ce site avec Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/demo-mkdocs-material).
 2. Choisissez un nom de "repository", par exemple: mysite-dev.
 3. Cliquez sur "Enregistrer et déployer".
 
@@ -157,11 +157,9 @@ Déployez ce site avec Netlify:
 
 ## 6. Configurer le service DNS et les paramètres
 
-**Pratique :** Distinguez le service de Domain Registrar et le service DNS.
+**Pratique :** Distinguez le service de Domain Registrar et le service DNS. Révisez les [concepts DNS](https://en.wikipedia.org/wiki/Domain_Name_System).
 
-**Pratique :** Passez en revue les [concepts DNS](https://en.wikipedia.org/wiki/Domain_Name_System).
-
-**Pratique :** Apprenez [ce qui est cloudflare](https://blog.cloudflare.com/what-is-cloudflare/).
+**Pratique :** Apprenez [ce qu'est le fournisseur Cloudflare](https://blog.cloudflare.com/what-is-cloudflare/).
 
 1. Obtenez un nom de domaine (https://www.ovh.com/fr/domaines/): par exemple, `example.com`.
 2. Choisissez les adresses IP Cloudflare NS.
@@ -173,8 +171,8 @@ Déployez ce site avec Netlify:
 Dans l'interface Web frontale Netlify, configurez un domaine personnalisé:
 
 1. Allez dans "mysite / settings / general".
-2. Cliquez sur le bouton "Changer le nom du site": par exemple "mysite".
-3. Allez dans "Paramètres / Gestion Somain / Domaines".
+2. Cliquez sur le bouton "Change site name" : par exemple "mysite".
+3. Allez dans "Settings / Domain management / Domains".
 4. Cliquez sur le bouton "Ajouter un domaine personnalisé": "mysite.example.com".
 
 ## 8. Sécurisez votre site avec HTTPS
