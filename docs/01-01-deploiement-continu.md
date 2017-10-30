@@ -38,15 +38,15 @@ Au regard des deux pratiques précédentes, on peut trouver plusieurs définitio
 !!! info "Définition de l'intégration continue selon Wikipedia FR"
     L'intégration continue repose souvent sur la mise en place d'une brique logicielle permettant l'automatisation de tâches : compilation, tests unitaires et fonctionnels, validation produit, tests de performances… À chaque changement du code, cette brique logicielle va exécuter un ensemble de tâches et produire un ensemble de résultats, que le développeur peut par la suite consulter. Cette intégration permet ainsi de ne pas oublier d'éléments lors de la mise en production et donc ainsi améliorer la qualité du produit. [^continuous-integration-wikipediafr]
 
-[^continuous-integration-wikipediafr]: [Définition de l'intégration continue selon selon Wikipedia FR](https://www.agilealliance.org/glossary/continuous-integration/)https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue
+[^continuous-integration-wikipediafr]: [Définition de l'intégration continue selon selon Wikipedia FR](https://www.agilealliance.org/glossary/continuous-integration/)https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue).
 
 !!! info "Définition de l'intégration continue selon l'Agile Alliance"
     Les équipes pratiquant une intégration continue recherchent deux objectifs: d'une part, {==minimiser la durée et l'effort requis par chaque épisode d'intégration==} et, d'autre part, {==être en mesure de livrer une version du produit pouvant être libérée à tout moment==}. En pratique, ce double objectif nécessite une procédure d'intégration reproductible à tout le moins et largement automatisée. Ceci est réalisé grâce à des outils de contrôle de version, des politiques et des conventions d'équipe, et des outils spécialement conçus pour aider à réaliser une intégration continue. [^continuous-integration-agilealliance]
 
-[^continuous-integration-agilealliance]: [Définition de l'intégration continue selon l'Agile Alliance](https://www.agilealliance.org/glossary/continuous-integration/)
+[^continuous-integration-agilealliance]: [Définition de l'intégration continue selon l'Agile Alliance](https://www.agilealliance.org/glossary/continuous-integration/).
 
 ## Outils CI/CD
 
 Jenkins, GitLab CI, Buildbot, Drone, Concourse sont des outils CI/CD. [^cicd-tools-1]
 
-[^cicd-tools-1]: [Comparatif des outils CI/CD Digital Ocean] (https://www.digitalocean.com/community/tutorials/ci-cd-tools-comparison-jenkins-gitlab-ci-buildbot-drone-and-concourse)
+[^cicd-tools-1]: [Comparatif des outils CI/CD Digital Ocean] (https://www.digitalocean.com/community/tutorials/ci-cd-tools-comparison-jenkins-gitlab-ci-buildbot-drone-and-concourse).
