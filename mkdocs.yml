@@ -19,7 +19,7 @@ theme: 'material'
 # Options
 
 extra:
-  language: en
+  language: fr
   feature:
     tabs: true
   palette:
@@ -72,11 +72,10 @@ markdown_extensions:
 
 pages:
 - 'Course Presentation': 'index.md'
+- '1. Premier projet en déploiement continu': 'premier-projet-en-deploiement-continu.md'
+- '2. Autre projets avec générateur de site statique': 'autres-projets-avec-generateur-de-site-statique.md'
+- '3. Apprendre à écrire en Markdown': 'noway.md'
 - 'In English':
   - '1. First continuous deployment project': 'first-continous-deployment-project.md'
   - '2. Other Projects with static site generators': 'other-projects-with-static-site-generators.md'
   - '3. Learn Markdown': 'markdown-styling.md'
-- 'En français':
-  - '1. Premier projet en déploiement continu': 'premier-projet-en-deploiement-continu.md'
-  - '2. Autre projets avec générateur de site statique': 'autres-projets-avec-generateur-de-site-statique.md'
-  - '3. Apprendre à écrire en Markdown': 'noway.md'

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Dans ce cours, nous apprendrons comment déployer des sites Web en déploiement continu avec des générateurs de sites statiques. Nous essaierons de comprendre de nombreux concepts et de les mettre en pratique :
+Dans ce cours, vous apprendrez comment déployer des sites Web en déploiement continu avec des générateurs de sites statiques. Nous essaierons ensemble de comprendre de nombreux concepts et de les mettre en pratique :
 
 1. Planifiez votre projet.
 2. Qu'est-ce qu'un déploiement continu?
@@ -15,28 +15,28 @@ Dans ce cours, nous apprendrons comment déployer des sites Web en déploiement 
 9. Personnalisez votre site.
 10. Aller plus loin avec les générateurs de site statique.
 
-Pour maintenir notre site, nous utiliserons **Git**, **GitHub** et **Atom Editor**.
+Pour maintenir notre site et son code, nous utiliserons **Git**, **GitHub** et **Atom Editor**.
 
-Pour construire, déployer et héberger nos exemples, nous utiliserons **Netlify**.
+Pour construire, déployer et héberger nos exemples, nous utiliserons le prestataire de services et d'hébergement Web **Netlify**.
 
 Nous utiliserons **MkDocs**, **Hugo**, **GitBook** et **Jekyll** comme générateurs de sites statiques.
 
-Il n'y a rien à payer pour utiliser et déployer ces solutions.
+Il n'y a rien à payer pour utiliser et déployer ces solutions. Tout au plus, une adresse de courrier valide sera nécessaire.
 
 L'exemple principal tente de répondre au besoin d'un système de documentation Web à monter en 10 étapes.
 
-Après cette première procédure, à la page suivante, nous étendrons nos connaissances avec d'autres projets.
+Après cette première procédure, à la page suivante, vous étendrez vos connaissances avec d'autres projets.
 
 ## 1. Planifiez votre projet
 
-Pour ce premier exemple, nous utiliserons ce plan :
+Pour ce premier exemple, on utilise ce plan :
 
 Caractéristique | La description
 --- | ---
 Générateur statique | MkDocs
 Thème | mkdocs-material
 Type | Documentation
-Nom | learn-cd-staticgen
+Nom | learn-cd-staticgen-mkdocs-material-01
 Dépôt original | https://github.com/goffinet/learn-cd-staticgen/
 Mon "repository" de projets | https://github.com/goffinet/learn-cd-staticgen-mkdocs-material-01/
 Titre | Apprenez le déploiement continu avec des générateurs de site statiques en dix étapes
@@ -47,25 +47,25 @@ Fournisseur de service CD | Netlify
 DNS Registrar | OVH
 Service DNS | Cloudflare sans proxy
 
-Veuillez remplir votre premier plan personnel:
+Veuillez remplir votre premier plan personnel :
 
 Caractéristique | La description
 --- | ---
 Générateur statique | MkDocs
 Thème | mkdocs-material
 Type | Documentation
-Nom | learn-cd-staticgen ...
+Nom | monsite01.netlify.com
 Dépôt original | https://github.com/goffinet/learn-cd-staticgen/
-Mon "repository" de projets | https://github.com/myaccount/...
+Mon "repository" de projets | https://github.com/myaccount/monsite01/
 Titre | ...
 Description | ...
-URL | https://...
+URL | https://monsite01.example.com
 Caractéristiques du site Web | Couleurs, contenu, structure, images, liens de liens sociaux, ...
 Fournisseur de service CD | Netlify
 DNS Registrar | ...
 Service DNS | ...
 
-## 2. Qu'est-ce qu'un déploiement continu?
+## 2. Qu'est-ce le déploiement continu?
 
 Le déploiement continu (CD) peut être considéré comme une extension de [l'intégration continue](https://www.agilealliance.org/glossary/continuous-integration/) (CI), visant à minimiser [délai d'exécution](https://www.agilealliance.org/glossary/lead-time/), soit le temps écoulé entre le développement d'une nouvelle ligne de code et l'utilisation de ce nouveau code par les utilisateurs en production.
 
@@ -75,7 +75,7 @@ Source: https://www.agilealliance.org/glossary/continuous-deployment/.
 
 Source: https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff.
 
-## 3. Qu'est-ce qu'un générateur de site statique?
+## 3. Qu'est-ce qu'un générateur de site statique ?
 
 > Le concept de base d'un générateur de site statique (aussi appelé moteur de site statique) est simple: prendre du contenu et des données dynamiques et générer des fichiers HTML/JavaScript/CSS statiques pouvant être déployés sur le serveur. Cette idée n'est pas nouvelle.
 
@@ -91,11 +91,11 @@ Voir cette excellente source : https://www.oreilly.com/ideas/static-site-generat
 **Pratique**: En savoir plus sur [MkDocs](http://www.mkdocs.org/) et [Material for MkDocs](http://squidfunk.github.io/mkdocs-material/).
 
 * MkDocs est un générateur de site statique rapide, simple et carrément magnifique qui est orienté vers la création de documentation de projet. Les fichiers sources de documentation sont écrits dans Markdown et configurés avec un seul fichier de configuration YAML.
-* Le matériel est un thème pour MkDocs. Il est construit en utilisant [les directives de Google Material Design](https://material.io/guidelines/material-design/).
+* Material est un thème pour MkDocs. Il est construit en utilisant [les directives de Google Material Design](https://material.io/guidelines/material-design/).
 
 ![](http://squidfunk.github.io/mkdocs-material/images/material.png)
 
-**Pratique :** Vous pouvez choisir autant de projets à partir de [static site generator](https://www.staticgen.com/). N'hésitez pas à explorer staticgen.com.
+**Pratique :** N'hésitez pas à explorer [static site generator](https://www.staticgen.com/) qui recense les nombreux projets de générateurs de site statique.
 
 ## 4. Connectez-vous à GitHub
 
@@ -125,7 +125,7 @@ Source: https://en.wikipedia.org/wiki/GitHub
 
 1. Créez un compte utilisateur GitHub.
 2. Connectez-vous à Github.
-3. Installez le logiciel [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) ou le logiciel [` GitHub Desktop`](https://help.github.com / desktop / guides / mise-en-marche-avec-github-desktop / installation-github-desktop / # plateforme-windows) localy.
+3. Installez sur votre machine locale le logiciel [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) ou le logiciel [GitHub Desktop](https://help.github.com/desktop/guides/mise-en-marche-avec-github-desktop/installation-github-desktop/#plateforme-windows).
 
 ## 5. Déployez ce site avec Netlify
 
@@ -145,35 +145,35 @@ Fonctionnalités du plan personnel Netlify (gratuit):
 
 Source: https://www.netlify.com/pricing/
 
-**Pratique :** Voir ce qu'est un "front end build tool" comme [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/) ou [Broccoli](https://github.com/broccolijs/broccoli) : des programmes d'exécution de tâches répétitives telles que minification, la compilation, les tests unitaires, etc.
+**Pratique :** Voyez ce qu'est un "front end build tool" comme [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/) ou [Broccoli](https://github.com/broccolijs/broccoli) : ce sont des programmes d'exécution de tâches répétitives, comme la minification, la compilation, les tests unitaires, etc.
 
-Déployez ce site avec Netlify:
+Déployez ce site avec Netlify :
 
 1. Voici la meilleure partie, [Déployez ce site avec Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/goffinet/demo-mkdocs-material).
-2. Choisissez un nom de "repository", par exemple: mysite-dev.
-3. Cliquez sur "Enregistrer et déployer".
+2. Choisissez un nom de "repository", par exemple: `mysite-dev`.
+3. Cliquez sur "Save and deploy".
 
-**Pratique :** découvrez l'interface et les fonctionnalités de Netlify.
+**Pratique :** Découvrez l'interface et les fonctionnalités de Netlify.
 
-## 6. Configurer le service DNS et les paramètres
+## 6. Configurer le service DNS et ses paramètres
 
-**Pratique :** Distinguez le service de Domain Registrar et le service DNS. Révisez les [concepts DNS](https://en.wikipedia.org/wiki/Domain_Name_System).
+**Pratique :** Distinguez le notion de Domain Registrar et le service DNS et différents enregistrements (records). Révisez les [concepts DNS](https://en.wikipedia.org/wiki/Domain_Name_System).
 
 **Pratique :** Apprenez [ce qu'est le fournisseur Cloudflare](https://blog.cloudflare.com/what-is-cloudflare/).
 
 1. Obtenez un nom de domaine (https://www.ovh.com/fr/domaines/): par exemple, `example.com`.
 2. Choisissez les adresses IP Cloudflare NS.
 3. Choisissez un service DNS (https://www.cloudflare.com/).
-4. Créez un CNAME `monsite mysite-dev.netlify.com`.
+4. Créez un CNAME `monsite monsite-dev.netlify.com`.
 
 ## 7. Configurez un domaine personnalisé
 
 Dans l'interface Web frontale Netlify, configurez un domaine personnalisé:
 
-1. Allez dans "mysite / settings / general".
-2. Cliquez sur le bouton "Change site name" : par exemple "mysite".
+1. Allez dans "monsite01 / settings / general".
+2. Cliquez sur le bouton "Change site name" : par exemple "monsite01".
 3. Allez dans "Settings / Domain management / Domains".
-4. Cliquez sur le bouton "Ajouter un domaine personnalisé": "mysite.example.com".
+4. Cliquez sur le bouton "Ajouter un domaine personnalisé": "monsite01.example.com".
 
 ## 8. Sécurisez votre site avec HTTPS
 
@@ -181,34 +181,34 @@ Dans l'interface Web frontale Netlify, configurez un domaine personnalisé:
 
 **Pratique :** En savoir plus sur [Let's Encrypt](https://letsencrypt.org/about/). Let's Encrypt est une autorité de certification (CA) gratuite, automatisée et ouverte, exploitée pour le bénéfice du public. C'est un service fourni par [Internet Security Research Group (ISRG)](https://letsencrypt.org/isrg/).
 
-Let's Encrypt offre à quiconque les certificats numériques dont ils ont besoin pour activer HTTPS (SSL/TLS) pour les sites Web, gratuitement, de la manière la plus conviviale possible. Let's Encrypt veut créer un site Web plus sûr et plus respectueux de la vie privée.
+>Let's Encrypt offre à quiconque les certificats numériques dont il a besoin pour activer HTTPS (SSL/TLS) pour des sites Web, gratuitement, de la manière la plus conviviale possible. Let's Encrypt veut donner la possibilité de créer des sites Web plus sûrs et plus respectueux de la vie privée.
 
 Dans l'interface Web frontale de Netlify, sécurisez votre site avec HTTPS :
 
-1. Allez dans "Settings/ Domain management /HTTPS".
+1. Allez dans "Settings / Domain management / HTTPS".
 2. Vérifiez que le DNS est correctement configuré avant d'activer HTTPS: cliquez sur le bouton "Verify DNS Configuration".
 3. Fournissez un certificat pour votre domaine et activez HTTPS: cliquez sur le bouton "Provision a certificate for your domain and enable HTTPS".
 4. Cliquez sur "Force HTTPS" après la génération du certificat pour forcer HTTPS.
 
 ## 9. Personnalisez votre site
 
-**Pratique :** Revisez git avec https://try.github.io/ ou avec https://git-scm.com/book/en/v2/.
+**Pratique :** Révisez Git avec le cours en ligne https://try.github.io/ ou encore avec le livre en ligne avec https://git-scm.com/book/en/v2/.
 
 **Pratique :** [Apprenez le langage Markdown](https://www.markdowntutorial.com/): Markdown est essentiellement une syntaxe pour un format de texte simple, facile à lire, qui est conçu pour être converti en HTML ([source](https://www.oreilly.com/ideas/static-site-generators)). La plupart des moteurs de blogs ont commencé à offrir un support pour Markdown, y compris Wordpress.
 
-**Pratique :** Installez localement un outil de développement web qui offre un support du langage Markdown, comme [Sublime Text](http://www.sublimetext.com/), [Atom](https: // atom. io /), [Visual Studio Code](https://code.visualstudio.com/), ou [Brackets](http://brackets.io/).
+**Pratique :** Installez localement un outil de développement web qui offre un support du langage Markdown, comme [Sublime Text](http://www.sublimetext.com/), [Atom](https://atom. io/), [Visual Studio Code](https://code.visualstudio.com/), ou [Brackets](http://brackets.io/).
 
 Localement, personnalisez votre site et déployez-le:
 
-1. Cloner localement le "repository" `https://github.com/myaccount/mysite-dev/`.
+1. Cloner localement le "repository" `https://github.com/myaccount/monsite01/`.
 2. Ajoutez des pages de contenu écrites dans Markdown dans le répertoire `docs/`.
 3. Configurez le fichier `mkdocs.yml` et ajoutez la partie récapitulative.
 4. Validez et appuyez sur votre nouveau code avec `git`.
 
 ```bash
-git clone https://github.com/myaccount/mysite-dev/
-cd mysite-dev
-vi docs /index.md
+git clone https://github.com/myaccount/monsite01/
+cd monsite01
+vi docs/index.md
 vi mkdocs.yml
 git add *
 git commit -m "personnalisation de site"
@@ -217,18 +217,18 @@ git push
 
 Veuillez revenir à votre interface Web NetLify pour vérifier votre build et le déploiement du site Web.
 
-Note: Vous pouvez trouver de belles photos de qualité sur https://unsplash.com/ (gratuit). Vous pouvez optimiser et transformer des images avec https://snappa.com/ (commercial).
+Note: Vous pouvez trouver de belles photos de qualité sur [Unsplash](https://unsplash.com/) (gratuit). Vous pouvez optimiser et transformer des images avec [Snappa](https://snappa.com/) (commercial), [CloudConvert](https://cloudconvert.com/) permet de convertir des fichiers notamment vers le format Markdown.
 
 ## 10. Aller plus loin avec les générateurs de sites statiques.
 
-**Pratique :** Revoir [théorie des motifs MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), [concepts CSS](https: // fr .wikipedia.org / wiki / Cascading_Style_Sheets), [langage HTML](https://en.wikipedia.org/wiki/HTML) et [concepts SEO](https://en.wikipedia.org/wiki/Search_engine_optimization).
+**Pratique :** Revoir [théorie des motifs MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), [concepts CSS](https: // fr .wikipedia.org / wiki / Cascading_Style_Sheets), [langage HTML](https://en.wikipedia.org/wiki/HTML) et [concepts SEO](https://en.wikipedia.org/wiki/Search_engine_optimization), Google Analytics, Google Search Consol, Woorank.
 
 Allez plus loin avec vos nouvelles compétences:
 
 1. Créez un ID de suivi [Google Analytics](https://analytics.google.com/).
 2. Créez un site dans votre compte [disqus](https://disqus.com/admin/).
 3. Enregistrez le site sur [Google Search Console](https://www.google.com/webmasters/tools/home?hl=fr&pli=1) et lancez l'indexation du site.
-4. Créez un `docs/images/` pour stocker des images.
+4. Créez un `docs/images/` pour stocker des images locales au site Web.
 5. Intégrez un formulaire Mailchimp ou un widget Twitter, ou ajoutez un bloc de bannière AdSense.
 6. [Modifier le thème MkDocs](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes) et/ou exploiter leur CSS.
 7. Validez votre site avec [Woorank](https://www.woorank.com/).
