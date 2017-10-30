@@ -20,9 +20,9 @@ Le déploiement continu d'un logiciel consiste à le mettre en production dès q
 
 [^continuous-deployment]: [Défintion de la notion de déploiement continu par l'Agile Alliance](https://www.agilealliance.org/glossary/continuous-deployment/)
 
-On confond souvent "déploiement continu" (Continuous Deployment) et "livraison continue" (Continuous Delivery).
-
 ## Qu'est-ce La livraison continue (CD) ?
+
+On confond souvent "déploiement continu" (Continuous Deployment) et "livraison continue" (Continuous Delivery).
 
 !!! caution "Livraison continue (Continuous Delivery) versus déploiement continu"
     La **livraison continue** est une suite de pratiques conçues pour garantir que le code peut être déployé rapidement et en toute sécurité vers la production en livrant chaque changement dans un environnement proche de la production et en garantissant que les applications et services métier fonctionnent comme prévu grâce à des tests automatisés rigoureux. Comme chaque modification est fournie à un environnement intermédiaire en utilisant une automatisation complète, vous pouvez avoir l'assurance que l'application peut être déployée en production en appuyant sur un bouton lorsque tout est prêt.
