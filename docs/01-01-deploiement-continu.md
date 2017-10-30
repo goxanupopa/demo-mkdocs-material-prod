@@ -49,4 +49,4 @@ Au regard des deux pratiques précédentes, on peut trouver plusieurs définitio
 
 Jenkins, GitLab CI, Buildbot, Drone, Concourse sont des outils CI/CD. [^cicd-tools-1]
 
-[^cicd-tools-1]: [Comparatif des outils CI/CD Digital Ocean] (https://www.digitalocean.com/community/tutorials/ci-cd-tools-comparison-jenkins-gitlab-ci-buildbot-drone-and-concourse).
+[^cicd-tools-1]: [Comparatif des outils CI/CD Digital Ocean](https://www.digitalocean.com/community/tutorials/ci-cd-tools-comparison-jenkins-gitlab-ci-buildbot-drone-and-concourse).
