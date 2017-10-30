@@ -95,7 +95,7 @@ Voir cette excellente source: https://www.oreilly.com/ideas/static-site-generato
 
 ![](http://squidfunk.github.io/mkdocs-material/images/material.png)
 
-**Pratique :** Vous pouvez choisir autant de projets en utilisant [static site generator](https://www.staticgen.com/). N'hésitez pas à explorer staticgen.com.
+**Pratique :** Vous pouvez choisir autant de projets à partir de [static site generator](https://www.staticgen.com/). N'hésitez pas à explorer staticgen.com.
 
 ## 4. Connectez-vous à GitHub
 
