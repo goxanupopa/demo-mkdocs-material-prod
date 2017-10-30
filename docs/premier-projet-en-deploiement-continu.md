@@ -196,7 +196,7 @@ Dans l'interface Web frontale de Netlify, sécurisez votre site avec HTTPS :
 
 **Pratique :** [Apprenez le langage Markdown](https://www.markdowntutorial.com/): Markdown est essentiellement une syntaxe pour un format de texte simple, facile à lire, qui est conçu pour être converti en HTML ([source](https://www.oreilly.com/ideas/static-site-generators)). La plupart des moteurs de blogs ont commencé à offrir un support pour Markdown, y compris Wordpress.
 
-**Pratique :** Installez localement un outil de développement web qui offre un support du langage Markdown prêt à l'emploi, comme [Sublime Text](http://www.sublimetext.com/), [Atom](https: // atom. io /), [Visual Studio Code](https://code.visualstudio.com/), ou [Brackets](http://brackets.io/).
+**Pratique :** Installez localement un outil de développement web qui offre un support du langage Markdown, comme [Sublime Text](http://www.sublimetext.com/), [Atom](https: // atom. io /), [Visual Studio Code](https://code.visualstudio.com/), ou [Brackets](http://brackets.io/).
 
 Localement, personnalisez votre site et déployez-le:
 
