@@ -37,7 +37,7 @@ Générateur statique | MkDocs
 Thème | mkdocs-material
 Type | Documentation
 Nom | learn-cd-staticgen
-Dépôt original | https://github.com/goffinet/learn-cd-staticgen-mkdocs-material/
+Dépôt original | https://github.com/goffinet/learn-cd-staticgen/
 Mon "repository" de projets | https://github.com/goffinet/learn-cd-staticgen-mkdocs-material-01/
 Titre | Apprenez le déploiement continu avec des générateurs de site statiques en dix étapes
 Description | Apprenez le déploiement continu avec des générateurs de site statiques en dix étapes
@@ -55,11 +55,11 @@ Générateur statique | MkDocs
 Thème | mkdocs-material
 Type | Documentation
 Nom | learn-cd-staticgen ...
-Dépôt original | https://github.com/goffinet/learn-cd-staticgen-mkdocs-material/
-Mon "repository" de projets | https: //github.com / ... / ...
+Dépôt original | https://github.com/goffinet/learn-cd-staticgen/
+Mon "repository" de projets | https://github.com/.../...
 Titre | ...
 Description | ...
-URL | https: // ...
+URL | https://...
 Caractéristiques du site Web | Couleurs, contenu, structure, images, liens de liens sociaux, ...
 Fournisseur de service CD | Netlify
 DNS Registrar | ...
@@ -207,27 +207,27 @@ Localement, personnalisez votre site et déployez-le:
 3. Configurez le fichier `mkdocs.yml` et ajoutez la partie récapitulative.
 4. Validez et appuyez sur votre nouveau code avec `git`.
 
-`` `bash
+```bash
 git clone https://github.com/myaccount/mysite-dev/
 cd mysite-dev
-vi docs / index.md
+vi docs /index.md
 vi mkdocs.yml
-git ajouter *
+git add *
 git commit -m "personnalisation de site"
 git push
-`` `
+```
 
 Veuillez revenir à votre interface Web NetLify pour vérifier votre build et le déploiement du site Web.
 
-Note: Vous pouvez trouver de belles photos de qualité avec https://unsplash.com/ (gratuit). Vous pouvez optimiser et transformer des images avec https://snappa.com/ (commercial).
+Note: Vous pouvez trouver de belles photos de qualité sur https://unsplash.com/ (gratuit). Vous pouvez optimiser et transformer des images avec https://snappa.com/ (commercial).
 
 ## 10. Aller plus loin avec les générateurs de sites statiques.
 
-**Pratique :** Revoir [théorie des motifs MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), [Concepts CSS](https: // fr .wikipedia.org / wiki / Cascading_Style_Sheets), [langage HTML](https://en.wikipedia.org/wiki/HTML) et [concepts SEO](https://en.wikipedia.org/wiki/Search_engine_optimization).
+**Pratique :** Revoir [théorie des motifs MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), [concepts CSS](https: // fr .wikipedia.org / wiki / Cascading_Style_Sheets), [langage HTML](https://en.wikipedia.org/wiki/HTML) et [concepts SEO](https://en.wikipedia.org/wiki/Search_engine_optimization).
 
 Allez plus loin avec vos nouvelles compétences:
 
-1. Créez un [Google Analytics](https://analytics.google.com/) site avec l'ID suivant.
+1. Créez un ID de suivi [Google Analytics](https://analytics.google.com/).
 2. Créez un site dans votre compte [disqus](https://disqus.com/admin/).
 3. Enregistrez le site sur [Google Search Console](https://www.google.com/webmasters/tools/home?hl=fr&pli=1) et lancez l'indexation du site.
 4. Créez un `docs/images/` pour stocker des images.
