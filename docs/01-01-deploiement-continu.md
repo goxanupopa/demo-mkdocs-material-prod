@@ -15,7 +15,7 @@ Le mouvement devops est né d'une part de la volonté de globaliser les méthode
 
 ## Qu'est-ce le déploiement continu ?
 
-Déploiement continu, livraison continue (CD) et intégration continue sont un ensemble de pratiques liées à des outils et/ou des services d'usines logicielles relevant du mouvement plus large appelé "Devops".
+Déploiement continu, livraison continue (CD) et intégration continue sont un ensemble de pratiques liées à des outils et/ou des services d'usine logicielle et qui relève des aspects "agiles" d'un mouvement plus large appelé "Devops".
 
 !!! info "Définition du déploiement continu"
     Le déploiement continu peut être considéré comme une extension de [l'intégration continue](https://www.agilealliance.org/glossary/continuous-integration/) (CI), visant à minimiser [délai d'exécution](https://www.agilealliance.org/glossary/lead-time/), soit le temps écoulé entre le développement d'une nouvelle ligne de code et l'utilisation de ce nouveau code par les utilisateurs en production. [^continuous-deployment]
