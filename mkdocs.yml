@@ -77,6 +77,6 @@ pages:
   - '2. Other Projects with static site generators': 'other-projects-with-static-site-generators.md'
   - '3. Learn Markdown': 'markdown-styling.md'
 - 'En français':
-  - 'Premier projet en déploiement continu': 'premier-projet-en-deploiement-continu.md'
-  - 'Autre projets avec générateur de site statique': 'autres-projets-avec-generateur-de-site-statique.md'
-  - 'Apprendre à écrire en Markdown': 'noway.md'
+  - '1. Premier projet en déploiement continu': 'premier-projet-en-deploiement-continu.md'
+  - '2. Autre projets avec générateur de site statique': 'autres-projets-avec-generateur-de-site-statique.md'
+  - '3. Apprendre à écrire en Markdown': 'noway.md'
