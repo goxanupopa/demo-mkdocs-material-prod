@@ -56,7 +56,7 @@ Thème | mkdocs-material
 Type | Documentation
 Nom | learn-cd-staticgen ...
 Dépôt original | https://github.com/goffinet/learn-cd-staticgen/
-Mon "repository" de projets | https://github.com/.../...
+Mon "repository" de projets | https://github.com/myaccount/...
 Titre | ...
 Description | ...
 URL | https://...
@@ -67,7 +67,7 @@ Service DNS | ...
 
 ## 2. Qu'est-ce qu'un déploiement continu?
 
-Le déploiement continu peut être considéré comme une extension de [l'intégration continue](https://www.agilealliance.org/glossary/continuous-integration/), visant à minimiser [délai d'exécution](https://www.agilealliance.org/glossary/lead-time/), le temps écoulé entre le développement d'une nouvelle ligne de code et l'utilisation de ce nouveau code par les utilisateurs en production.
+Le déploiement continu (CD) peut être considéré comme une extension de [l'intégration continue](https://www.agilealliance.org/glossary/continuous-integration/) (CI), visant à minimiser [délai d'exécution](https://www.agilealliance.org/glossary/lead-time/), soit le temps écoulé entre le développement d'une nouvelle ligne de code et l'utilisation de ce nouveau code par les utilisateurs en production.
 
 Source: https://www.agilealliance.org/glossary/continuous-deployment/.
 
@@ -79,7 +79,7 @@ Source: https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-wha
 
 > Le concept de base d'un générateur de site statique (aussi appelé moteur de site statique) est simple: prendre du contenu et des données dynamiques et générer des fichiers HTML/JavaScript/CSS statiques pouvant être déployés sur le serveur. Cette idée n'est pas nouvelle.
 
-Voir cette excellente source: https://www.oreilly.com/ideas/static-site-generators.
+Voir cette excellente source : https://www.oreilly.com/ideas/static-site-generators.
 
 * Il existe de nombreux services, gratuits et payants, qui offrent la possibilité d'ajouter des aspects dynamiques dans des pages statiques.
 * Les fichiers de sites statiques sont livrés à l'utilisateur final exactement comme ils sont sur le serveur.
@@ -181,22 +181,22 @@ Dans l'interface Web frontale Netlify, configurez un domaine personnalisé:
 
 **Pratique :** En savoir plus sur [Let's Encrypt](https://letsencrypt.org/about/). Let's Encrypt est une autorité de certification (CA) gratuite, automatisée et ouverte, exploitée pour le bénéfice du public. C'est un service fourni par [Internet Security Research Group (ISRG)](https://letsencrypt.org/isrg/).
 
-Let's Encrypt donne aux gens les certificats numériques dont ils ont besoin pour activer HTTPS (SSL / TLS) pour les sites Web, gratuitement, de la manière la plus conviviale possible. Nous faisons cela parce que nous voulons créer un site Web plus sûr et plus respectueux de la vie privée.
+Let's Encrypt offre à quiconque les certificats numériques dont ils ont besoin pour activer HTTPS (SSL/TLS) pour les sites Web, gratuitement, de la manière la plus conviviale possible. Let's Encrypt veut créer un site Web plus sûr et plus respectueux de la vie privée.
 
-Dans l'interface Web frontale de Netlify, sécurisez votre site avec HTTPS:
+Dans l'interface Web frontale de Netlify, sécurisez votre site avec HTTPS :
 
-1. Allez dans Paramètres / Gestion de domaine / HTTPS.
-2. Vérifiez que le DNS est correctement configuré avant d'activer HTTPS: cliquez sur le bouton "Vérifier la configuration DNS".
-3. Fournissez un certificat pour votre domaine et activez HTTPS: cliquez sur le bouton "provisionner un certificat pour votre domaine et activer HTTPS".
-4. Cliquez sur "Forcer HTTPS" après la génération du certificat.
+1. Allez dans "Settings/ Domain management /HTTPS".
+2. Vérifiez que le DNS est correctement configuré avant d'activer HTTPS: cliquez sur le bouton "Verify DNS Configuration".
+3. Fournissez un certificat pour votre domaine et activez HTTPS: cliquez sur le bouton "Provision a certificate for your domain and enable HTTPS".
+4. Cliquez sur "Force HTTPS" après la génération du certificat pour forcer HTTPS.
 
 ## 9. Personnalisez votre site
 
-**Pratique :** Passez en revue git avec https://try.github.io/ ou avec https://git-scm.com/book/en/v2/.
+**Pratique :** Revisez git avec https://try.github.io/ ou avec https://git-scm.com/book/en/v2/.
 
 **Pratique :** [Apprenez le langage Markdown](https://www.markdowntutorial.com/): Markdown est essentiellement une syntaxe pour un format de texte simple, facile à lire, qui est conçu pour être converti en HTML ([source](https://www.oreilly.com/ideas/static-site-generators)). La plupart des moteurs de blogs ont commencé à offrir un support pour Markdown, y compris Wordpress.
 
-**Pratique :** Installez localement un outils de développement web qui offrent un support Markdown prêt à l'emploi, comme [Sublime Text](http://www.sublimetext.com/), [Atom](https: // atom. io /), [Visual Studio Code](https://code.visualstudio.com/), ou [Brackets](http://brackets.io/).
+**Pratique :** Installez localement un outil de développement web qui offre un support du langage Markdown prêt à l'emploi, comme [Sublime Text](http://www.sublimetext.com/), [Atom](https: // atom. io /), [Visual Studio Code](https://code.visualstudio.com/), ou [Brackets](http://brackets.io/).
 
 Localement, personnalisez votre site et déployez-le:
 
