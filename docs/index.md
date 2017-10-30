@@ -2,13 +2,15 @@
 
 https://github.com/goffinet/learn-cd-staticgen/
 
-Description: Dans ce cours, vous apprendrez à déployer des sites Web en continu (Continuous Deployment) avec des générateurs de site statique. Nous essaierons ensemble de comprendre de nombreux concepts de développement Web et d'hébergement et de les mettre en pratique.
+Description: Dans ce cours, vous apprendrez à déployer des sites Web en continu (Continuous Deployment) avec des générateurs de site statique. Vous tenterez de comprendre dans un première ou une nouvelle approche de nombreux concepts de développement Web et d'hébergement et vous tenterez de les mettre en pratique.
+
+Statut : en construction.
 
 [Dans la première partie de ce cours](premier-projet-en-deploiement-continu.md), vous apprendrez à déployer en déploiement continu un site Web documentaire en HTTPS et en CDN gratuitement avec Netlify.
 
 [Dans la deuxième partie du document](autres-projets-avec-generateur-de-site-statique.md), vous étendrez vos compétences avec d'autres projets.
 
-Pour maintenir vos sites, vous utiliserez **Git**, **GitHub** et **Atom Editor**. Pour construire, déployer et héberger nos exemples nous utiliserons le fournisseur de services **Netlify**. Enfin, nous utiliserons **MkDocs**, **Hugo**, **GitBook** et **Jekyll** comme générateurs de site statique. Aussi, nous suggérons de prendre **Cloudflare** comme serveur DNS Server et **OVH** comme "Domain Registrar".
+Pour maintenir vos sites, vous utiliserez **Git**, **GitHub** et **Atom Editor**. Pour construire, déployer et héberger les exemples vous utiliserez le fournisseur de services **Netlify**. Enfin, vous aure l'occasion de tester les générateurs de site statique **MkDocs**, **Hugo**, **GitBook** et **Jekyll**. Aussi, on proposera de prendre **Cloudflare** comme serveur DNS et **OVH** pour enregistrer le domaine.
 
 Ce cours est l'occasion de réviser des protocoles comme **HTTP**, **HTTPS/TLS**, **DNS**, mais aussi des concepts et des architectures comme CI/CD, la gestion du code source, MVC, HTML, JS, CSS, SEO, CDN, website analytics, ...
 
