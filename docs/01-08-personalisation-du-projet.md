@@ -29,7 +29,7 @@ Veuillez revenir à votre interface Web NetLify pour vérifier votre build et le
 
 Note: Vous pouvez trouver de belles photos de qualité sur [Unsplash](https://unsplash.com/) (gratuit). Vous pouvez optimiser et transformer des images avec [Snappa](https://snappa.com/) (commercial), [CloudConvert](https://cloudconvert.com/) permet de convertir des fichiers notamment vers le format Markdown.
 
-## 2. Aller plus loin avec les générateurs de sites statiques.
+## 2. Aller plus loin
 
 **Pratique :** Revoir [théorie des motifs MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), [concepts CSS](https: // fr .wikipedia.org / wiki / Cascading_Style_Sheets), [langage HTML](https://en.wikipedia.org/wiki/HTML) et [concepts SEO](https://en.wikipedia.org/wiki/Search_engine_optimization), Google Analytics, Google Search Consol, Woorank.
 
