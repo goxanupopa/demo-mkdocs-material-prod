@@ -4,9 +4,12 @@
 
 ## Qu'est-ce qu'un générateur de site statique ?
 
-{==Le concept de base d'un générateur de site statique (aussi appelé moteur de site statique) est simple: prendre du contenu et des données dynamiques et générer des fichiers HTML/JavaScript/CSS statiques pouvant être déployés sur le serveur.==} Cette idée n'est pas nouvelle. [^static-site-generators]
+!!! question "Qu'est-ce qu'un générateur de site statique ?"
+    Le concept de base d'un générateur de site statique (aussi appelé moteur de site statique) est simple: {==prendre du contenu et des données dynamiques et générer des fichiers HTML/JavaScript/CSS statiques pouvant être déployés sur le serveur.==} Cette idée n'est pas nouvelle. [^static-site-generators]
 
 [^static-site-generators]: [Voir cet excellent source  du blog O'Reilly](https://www.oreilly.com/ideas/static-site-generators).
+
+On peut caractériser les sites fabriqués de cette manière :
 
 * Il existe de nombreux services, gratuits et payants, qui offrent la possibilité d'ajouter des aspects dynamiques dans des pages statiques.
 * Les fichiers de sites statiques sont livrés à l'utilisateur final exactement comme ils sont sur le serveur.
@@ -17,7 +20,7 @@
 
 ## Le projet Mkdocs
 
-[MkDocs](http://www.mkdocs.org/) est un générateur de site statique rapide et simple visant à créer des projets de documentation/à documenter des projets. Les fichiers sources de documentation sont écrits dans Markdown et configurés avec un seul fichier de configuration YAML.
+[MkDocs](http://www.mkdocs.org/) est un générateur de site statique rapide et simple visant à créer des projets de documentation/à documenter des projets. Les fichiers sources de documentation sont écrits dans Markdown et il est configuré avec un seul fichier de configuration YAML.
 
 ## Material for MkDocs
 
