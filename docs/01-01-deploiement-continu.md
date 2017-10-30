@@ -44,3 +44,9 @@ Au regard des deux pratiques précédentes, on peut trouver plusieurs définitio
     Les équipes pratiquant une intégration continue recherchent deux objectifs: d'une part, {==minimiser la durée et l'effort requis par chaque épisode d'intégration==} et, d'autre part, {==être en mesure de livrer une version du produit pouvant être libérée à tout moment==}. En pratique, ce double objectif nécessite une procédure d'intégration reproductible à tout le moins et largement automatisée. Ceci est réalisé grâce à des outils de contrôle de version, des politiques et des conventions d'équipe, et des outils spécialement conçus pour aider à réaliser une intégration continue. [^continuous-integration-agilealliance]
 
 [^continuous-integration-agilealliance]: [Définition de l'intégration continue selon l'Agile Alliance](https://www.agilealliance.org/glossary/continuous-integration/)
+
+## Outils CI/CD
+
+Jenkins, GitLab CI, Buildbot, Drone, Concourse sont des outils CI/CD. [^cicd-tools-1]
+
+[^cicd-tools-1]: [Comparatif des outils CI/CD Digital Ocean] (https://www.digitalocean.com/community/tutorials/ci-cd-tools-comparison-jenkins-gitlab-ci-buildbot-drone-and-concourse)
