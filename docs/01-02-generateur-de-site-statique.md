@@ -4,7 +4,7 @@
 
 ## Qu'est-ce qu'un générateur de site statique ?
 
-{== Le concept de base d'un générateur de site statique (aussi appelé moteur de site statique) est simple: prendre du contenu et des données dynamiques et générer des fichiers HTML/JavaScript/CSS statiques pouvant être déployés sur le serveur.==} Cette idée n'est pas nouvelle. [^static-site-generators]
+{==Le concept de base d'un générateur de site statique (aussi appelé moteur de site statique) est simple: prendre du contenu et des données dynamiques et générer des fichiers HTML/JavaScript/CSS statiques pouvant être déployés sur le serveur.==} Cette idée n'est pas nouvelle. [^static-site-generators]
 
 [^static-site-generators]: [Voir cet excellent source  du blog O'Reilly](https://www.oreilly.com/ideas/static-site-generators).
 
@@ -21,10 +21,10 @@
 
 ## Material for MkDocs
 
-* Material est un thème pour MkDocs. Il est construit en utilisant [les directives de Google Material Design](https://material.io/guidelines/material-design/).
+Material est un thème pour MkDocs. Il est construit en utilisant [les directives de Google Material Design](https://material.io/guidelines/material-design/).
 
 ![](http://squidfunk.github.io/mkdocs-material/images/material.png)
 
 ## L'annuaire Staticgen
 
-**Pratique :** N'hésitez pas à explorer [static site generator](https://www.staticgen.com/) qui recense les nombreux projets de générateurs de site statique.
+N'hésitez pas à explorer [static site generator](https://www.staticgen.com/) qui recense les nombreux projets de générateurs de site statique.
