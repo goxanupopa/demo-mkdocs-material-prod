@@ -1,5 +1,7 @@
 # 2. Générateur de site statique
 
+Le générateur de site statique est une pile logicielle, c'est l'application à livrer ou à déployer en continu. Dans ce document, on propose un solution simple et performante de site documentaire avec MkDocs et le thème Google Material.
+
 **Pratique**: En savoir plus sur [MkDocs](http://www.mkdocs.org/) et [Material for MkDocs](http://squidfunk.github.io/mkdocs-material/), explorer [static site generator](https://www.staticgen.com/).
 
 ## Qu'est-ce qu'un générateur de site statique ?
