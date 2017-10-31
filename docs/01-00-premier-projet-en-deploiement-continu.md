@@ -12,3 +12,11 @@ Dans ce cours, vous apprendrez à :
 * Configurer le service DNS et ses paramètres pour un domaine personnalisé.
 * Sécuriser gratuitement votre site en HTTPS avec Let's Encrypt.
 * Personnaliser et optimiser le site à l'aide d'un éditeur de texte approprié et des services externes.
+
+
+<!--
+
+prix
+pas une seule ligne de code ou d'opération sur les systèmes, focus sur le contenu et la présentation
+
+-->
