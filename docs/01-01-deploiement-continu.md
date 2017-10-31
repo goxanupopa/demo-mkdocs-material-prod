@@ -49,9 +49,9 @@ Au regard des deux pratiques précédentes, on peut trouver plusieurs définitio
 
     Les équipes pratiquant une **intégration continue** recherchent deux objectifs: d'une part, {==minimiser la durée et l'effort requis par chaque épisode d'intégration==} et, d'autre part, {==être en mesure de livrer une version du produit pouvant être mis à disposition à tout moment==}. En pratique, ce double objectif nécessite une procédure d'intégration reproductible à tout le moins et largement automatisée. Ceci est réalisé grâce à des outils de gestion de version, des politiques et des conventions d'équipe, et des outils spécialement conçus pour aider à réaliser une intégration continue. [^continuous-integration-agilealliance]
 
-[^continuous-integration-agilealliance]: [Définition de l'intégration continue selon l'Agile Alliance](https://www.agilealliance.org/glossary/continuous-integration/).
-
 [^integration-agilealliance]: [Définition de l'intégration selon l'Agile Alliance](https://www.agilealliance.org/glossary/integration/)
+
+[^continuous-integration-agilealliance]: [Définition de l'intégration continue selon l'Agile Alliance](https://www.agilealliance.org/glossary/continuous-integration/).
 
 ## Outils CI/CD
 
