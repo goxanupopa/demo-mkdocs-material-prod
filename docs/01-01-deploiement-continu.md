@@ -13,14 +13,14 @@ Déploiement continu, livraison continue (CD) et intégration continue (CI) sont
 
 ## Qu'est-ce le déploiement continu ?
 
-Le déploiement continu d'un logiciel consiste à le mettre en production dès que tous les tests logiciels ont été réalisés.
+Le déploiement continu d'une application consiste à le mettre en production dès que tous les tests logiciels ont été réalisés.
 
 !!! info "Définition du déploiement continu"
     Le déploiement continu peut être considéré comme une extension de [l'intégration continue](https://www.agilealliance.org/glossary/continuous-integration/) (CI), visant à minimiser [délai d'exécution](https://www.agilealliance.org/glossary/lead-time/), soit le temps écoulé entre le développement d'une nouvelle ligne de code et l'utilisation de ce nouveau code par les utilisateurs en production. [^continuous-deployment]
 
 [^continuous-deployment]: [Défintion de la notion de déploiement continu par l'Agile Alliance](https://www.agilealliance.org/glossary/continuous-deployment/)
 
-## Qu'est-ce La livraison continue (CD) ?
+## Qu'est-ce la livraison continue (CD) ?
 
 On confond souvent "déploiement continu" (Continuous Deployment) et "livraison continue" (Continuous Delivery).
 
@@ -40,7 +40,7 @@ Au regard des deux pratiques précédentes, on peut trouver plusieurs définitio
 !!! info "Définition de l'intégration continue selon Wikipedia FR"
     L'intégration continue repose souvent sur la mise en place d'une brique logicielle permettant l'automatisation de tâches : compilation, tests unitaires et fonctionnels, validation produit, tests de performances… À chaque changement du code, cette brique logicielle va exécuter un ensemble de tâches et produire un ensemble de résultats, que le développeur peut par la suite consulter. Cette intégration permet ainsi de ne pas oublier d'éléments lors de la mise en production et donc ainsi améliorer la qualité du produit. [^continuous-integration-wikipediafr]
 
-[^continuous-integration-wikipediafr]: [Définition de l'intégration continue selon selon Wikipedia FR](https://www.agilealliance.org/glossary/continuous-integration/)https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue).
+[^continuous-integration-wikipediafr]: [Définition de l'intégration continue selon selon Wikipedia FR](https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue).
 
 !!! info "Définition de l'intégration continue selon l'Agile Alliance"
     Le terme **intégration** fait référence aux efforts encore nécessaires, après que des programmeurs individuels ou des sous-groupes de programmeurs travaillent sur des composants séparés, pour qu'une équipe de projet fournisse un produit pouvant être livré comme un ensemble fonctionnel. [^integration-agilealliance]
@@ -55,7 +55,7 @@ Au regard des deux pratiques précédentes, on peut trouver plusieurs définitio
 
 ## Outils CI/CD
 
-_Jenkins_, _GitLab CI_, _Buildbot_, _Drone_, _Concourse_ sont des outils CI/CD, [^cicd-tools-1] mais en trouvera beaucoup d'autres. [^Référence manquante]
+_Jenkins_, _GitLab CI_, _Buildbot_, _Drone_, _Concourse_ sont des outils CI/CD, [^cicd-tools-1] mais on en trouvera beaucoup d'autres. [^Référence manquante]
 
 [^cicd-tools-1]: [Comparatif des outils CI/CD Digital Ocean](https://www.digitalocean.com/community/tutorials/ci-cd-tools-comparison-jenkins-gitlab-ci-buildbot-drone-and-concourse).
 
