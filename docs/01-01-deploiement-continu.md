@@ -1,6 +1,6 @@
 # 1. Le déploiement continu
 
-Déploiement continu, livraison continue (CD) et intégration continue (CI) sont un ensemble de pratiques liées à des outils et/ou des services d'usine logicielle et qui relève des aspects "agiles" d'un mouvement plus large appelé "Devops".
+Déploiement continu, livraison continue (CD) et intégration continue (CI) sont un ensemble de pratiques liées à des outils et/ou des services d'usine logicielle et qui relèvent des aspects "agiles" d'un mouvement plus large appelé "Devops".
 
 ## Qu'est-ce Devops ?
 
