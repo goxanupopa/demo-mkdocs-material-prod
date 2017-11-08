@@ -35,7 +35,7 @@ On confond souvent "déploiement continu" (Continuous Deployment) et "livraison 
 
 ## Qu'est-ce que l'intégration continue (CI) ?
 
-Au regard des deux pratiques précédentes, on peut trouver plusieurs définition de l'intégration continue (CI).
+Au regard des deux pratiques précédentes, on peut trouver plusieurs définitions de l'intégration continue (CI).
 
 !!! info "Définition de l'intégration continue selon Wikipedia FR"
     L'intégration continue repose souvent sur la mise en place d'une brique logicielle permettant l'automatisation de tâches : compilation, tests unitaires et fonctionnels, validation produit, tests de performances… À chaque changement du code, cette brique logicielle va exécuter un ensemble de tâches et produire un ensemble de résultats, que le développeur peut par la suite consulter. Cette intégration permet ainsi de ne pas oublier d'éléments lors de la mise en production et donc ainsi améliorer la qualité du produit. [^continuous-integration-wikipediafr]
