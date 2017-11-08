@@ -40,7 +40,7 @@ Au regard des deux pratiques précédentes, on peut trouver plusieurs définitio
 !!! info "Définition de l'intégration continue selon Wikipedia FR"
     L'intégration continue repose souvent sur la mise en place d'une brique logicielle permettant l'automatisation de tâches : compilation, tests unitaires et fonctionnels, validation produit, tests de performances… À chaque changement du code, cette brique logicielle va exécuter un ensemble de tâches et produire un ensemble de résultats, que le développeur peut par la suite consulter. Cette intégration permet ainsi de ne pas oublier d'éléments lors de la mise en production et donc ainsi améliorer la qualité du produit. [^continuous-integration-wikipediafr]
 
-[^continuous-integration-wikipediafr]: [Définition de l'intégration continue selon selon Wikipedia FR](https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue).
+[^continuous-integration-wikipediafr]: Définition de l'intégration continue selon selon Wikipedia FR : https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue.
 
 !!! info "Définition de l'intégration continue selon l'Agile Alliance"
     Le terme **intégration** fait référence aux efforts encore nécessaires, après que des programmeurs individuels ou des sous-groupes de programmeurs travaillent sur des composants séparés, pour qu'une équipe de projet fournisse un produit pouvant être livré comme un ensemble fonctionnel. [^integration-agilealliance]
