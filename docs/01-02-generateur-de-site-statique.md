@@ -14,7 +14,7 @@ Le générateur de site statique est une pile logicielle, c'est l'application à
 On peut caractériser les sites fabriqués de cette manière :
 
 * Il existe de nombreux services, gratuits et payants, qui offrent la possibilité d'ajouter des aspects dynamiques dans des pages statiques.
-* Les fichiers de sites statiques sont livrés à l'utilisateur final exactement comme ils sont sur le serveur.
+* Les fichiers de sites statiques sont livrés à l'utilisateur final exactement comme ils le sont sur le serveur.
 * Il n'y a pas de langage côté serveur.
 * Il n'y a pas de base de données.
 * Les sites statiques sont en HTML, CSS et JavaScript.
@@ -22,7 +22,7 @@ On peut caractériser les sites fabriqués de cette manière :
 
 ## Le projet Mkdocs
 
-[MkDocs](http://www.mkdocs.org/) est un générateur de site statique rapide et simple visant à créer des projets de documentation/à documenter des projets. Les fichiers sources de documentation sont écrits dans Markdown et il est configuré avec un seul fichier de configuration YAML.
+[MkDocs](http://www.mkdocs.org/) est un générateur de site statique rapide et simple visant à créer des projets de documentation/à documenter des projets. Les fichiers sources de documentation sont écrits en langage Markdown et il est configuré à partir d'un seul fichier de configuration (décrit en YAML).
 
 ## Material for MkDocs
 
