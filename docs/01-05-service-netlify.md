@@ -1,8 +1,8 @@
 # 5. Service Netlify
 
-## 1. Déployez ce site avec Netlify
+## Qu'est-ce que Netlify ?
 
-**Pratique :** [En savoir plus sur Netlify (crée, déploie et héberge des sites Web en mode de développement continu)](https://www.netlify.com/docs/continuous-deployment/).
+En savoir plus sur Netlify (crée, déploie et héberge des sites Web en mode de développement continu)](https://www.netlify.com/docs/continuous-deployment/).
 
 Fonctionnalités du plan personnel Netlify (gratuit):
 
@@ -18,7 +18,17 @@ Fonctionnalités du plan personnel Netlify (gratuit):
 
 Source: https://www.netlify.com/pricing/
 
-**Pratique :** Voyez ce qu'est un "front end build tool" comme [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/) ou [Broccoli](https://github.com/broccolijs/broccoli) : ce sont des programmes d'exécution de tâches répétitives, comme la minification, la compilation, les tests unitaires, etc.
+## Front end build tools
+
+Des "front end build tool" sont des programmes d'exécution de tâches répétitives, comme la minification, la compilation, les tests unitaires, etc.
+
+On peut citer les outils suivants en exemple :
+
+* [Grunt](https://gruntjs.com/),
+* [Gulp](https://gulpjs.com/) ou
+* [Broccoli](https://github.com/broccolijs/broccoli)
+
+## Déployez ce site avec Netlify et découverte
 
 Déployez ce site avec Netlify :
 
@@ -26,4 +36,4 @@ Déployez ce site avec Netlify :
 2. Choisissez un nom de "repository", par exemple: `mysite-dev`.
 3. Cliquez sur "Save and deploy".
 
-**Pratique :** Découvrez l'interface et les fonctionnalités de Netlify.
+Et découvrez de manière intuitive l'interface et les fonctionnalités de Netlify.
