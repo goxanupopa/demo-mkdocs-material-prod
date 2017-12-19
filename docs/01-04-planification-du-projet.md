@@ -30,7 +30,7 @@ Générateur statique | MkDocs
 Thème | mkdocs-material
 Type | Documentation
 Nom | monsite01.netlify.com
-Dépôt original | https://github.com/goffinet/learn-cd-staticgen/
+Dépôt original | github.com/goffinet/demo-mkdocs-material/
 Mon "repository" de projets | https://github.com/myaccount/monsite01/
 Titre | ...
 Description | ...
