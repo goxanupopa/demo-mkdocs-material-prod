@@ -10,7 +10,7 @@ Générateur statique | MkDocs
 Thème du générateur | mkdocs-material
 Type de site | Documentation
 Nom du site (_backend_) | learn-cd-staticgen-mkdocs-material-01
-Dépôt original | https://github.com/goffinet/learn-cd-staticgen/
+Dépôt original | https://github.com/goffinet/demo-mkdocs-material
 Mon "repository" de projet | https://github.com/goffinet/learn-cd-staticgen-mkdocs-material-01/
 Titre du site | Apprenez le déploiement continu avec des générateurs de site statiques en dix étapes
 Description du site | Apprenez le déploiement continu avec des générateurs de site statiques en dix étapes
@@ -30,7 +30,7 @@ Générateur statique | MkDocs
 Thème | mkdocs-material
 Type | Documentation
 Nom | monsite01.netlify.com
-Dépôt original | github.com/goffinet/demo-mkdocs-material/
+Dépôt original | https://github.com/goffinet/demo-mkdocs-material/
 Mon "repository" de projets | https://github.com/myaccount/monsite01/
 Titre | ...
 Description | ...
