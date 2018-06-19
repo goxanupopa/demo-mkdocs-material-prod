@@ -25,7 +25,7 @@ git commit -m "personnalisation de site"
 git push
 ```
 
-Veuillez revenir à votre interface Web NetLify pour vérifier votre build et le déploiement du site Web.
+Veuillez revenir à votre interface Web Netlify pour vérifier votre build et le déploiement du site Web.
 
 Note: Vous pouvez trouver de belles photos de qualité sur [Unsplash](https://unsplash.com/) (gratuit). Vous pouvez optimiser et transformer des images avec [Snappa](https://snappa.com/) (commercial), [CloudConvert](https://cloudconvert.com/) permet de convertir des fichiers notamment vers le format Markdown.
 
