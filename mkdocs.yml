@@ -1,15 +1,16 @@
 # Project information
 
-site_name: 'Learn Continuous Deployment With Static Site Generators'
-site_description: 'In this course we will learn how to deploy websites in continuous deployment with static site generators. We will try to understand numerous Web Dev and hosting concepts and to practice them.'
-site_author: 'François-Emmanuel Goffinet'
-site_url: 'https://demo-mkdocs-material.netlify.com/'
+site_name: 'Site sur les mangas que j'ai lu'
+site_description: 'Description du site sur les mangas'
+site_author: 'Alexandre Vandewiele'
+site_url: 'https://cpehnalex.netlify.com/'
 google_analytics:
   - 'UA-21733018-12'
   - 'auto'
 copyright: 'Copyright &copy; 2018 François-Emmanuel Goffinet'
 repo_name: 'goffinet/demo-mkdocs-material'
 repo_url: 'https://github.com/goffinet/demo-mkdocs-material/'
+adresse: Rue des paquerettes 22, 7215 Charleroi
 
 # Theme
 
@@ -32,8 +33,8 @@ theme:
   feature:
     tabs: false
   palette:
-    primary: 'blue'
-    accent: 'purple'
+    primary: 'orange'
+    accent: 'grey'
   font:
     text: Roboto
     code: Roboto Mono
@@ -52,6 +53,8 @@ extra:
       link : 'https://www.goffinet.org'
     - type: 'book'
       link : 'https://biblio.goffinet.org'
+    - type: 'facebook'
+      link : 'https://facebook.com/'
 
 # Extensions
 
@@ -84,16 +87,7 @@ markdown_extensions:
 # Content structure
 
 pages:
-- 'Présentation de la formation': 'index.md'
-- '1. Premier projet en déploiement continu':
-  - "Premier projet de déploiement continu": '01-00-premier-projet-en-deploiement-continu.md'
-  - "1. Le déploiement continu": '01-01-deploiement-continu.md'
-  - "2. Générateur de site statique": '01-02-generateur-de-site-statique.md'
-  - "3. Gestionnaire de version Git et service GitHub": '01-03-gestionnaire-de-version-git-et-github.md'
-  - "4. Planification du projet": '01-04-planification-du-projet.md'
-  - "5. Service Netlify": '01-05-service-netlify.md'
-  - "6. Configuration DNS": '01-06-configuration-dns.md'
-  - "7. HTTPS gratuit à la demandes": '01-07-https-gratuit-a-la-demande.md'
-  - "8. Personnalisation du projet": '01-08-personalisation-du-projet.md'
-- '2. Autre projets avec générateur de site statique': 'autres-projets-avec-generateur-de-site-statique.md'
-- '3. Apprendre à écrire en Markdown': 'noway.md'
+- 'Acceuil': 'index.md'
+- 'chapitre 1' : 'chapitre1.md'
+- 'chapitre 2' : 'chapitre2.md'
+- 'chapitre 3' : 'chapitre3.md'
