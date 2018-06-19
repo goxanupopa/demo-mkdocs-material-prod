@@ -81,6 +81,4 @@ Un autre exemple avec [Hugo](http://gohugo.io/) et Netlify-CMS:
 * https://www.netlify.com/blog/2017/10/11/coding-modern-websites-with-the-jamstack-part-2/
 * https://www.netlify.com/blog/2017/10/25/coding-modern-websites-with-the-jamstack-part-3/
 
-## 7. Ghost Blog Self Hosting sur Scaleway avec Nginx, Cloudflare, et chiffrons
-
-_en dev_
+## 8. Jekyll Static Web Site

@@ -14,7 +14,7 @@ Dépôt original | https://github.com/goffinet/demo-mkdocs-material
 Mon "repository" de projet | https://github.com/goffinet/learn-cd-staticgen-mkdocs-material-01/
 Titre du site | Apprenez le déploiement continu avec des générateurs de site statiques en dix étapes
 Description du site | Apprenez le déploiement continu avec des générateurs de site statiques en dix étapes
-URL du site | https://learn-cd-staticgen.goffinet.org
+URL du site | https://demo-mkdocs-material.netlify.com
 Caractéristiques du site Web | Couleurs, contenu, structure, images, liens de liens sociaux, ...
 Fournisseur/Solution de service CI/CD | Netlify
 DNS Registrar | OVH

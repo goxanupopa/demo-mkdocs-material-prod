@@ -1,6 +1,6 @@
 # Apprendre le développement continu avec des générateurs de site statique
 
-https://github.com/goffinet/learn-cd-staticgen/
+https://github.com/goffinet/demo-mkdocs-material/
 
 Description: Dans ce cours, vous apprendrez à déployer des sites Web en continu (Continuous Deployment) avec des générateurs de site statique. Vous tenterez de comprendre dans un première ou une nouvelle approche de nombreux concepts de développement Web et d'hébergement que vous mettrez en pratique.
 
