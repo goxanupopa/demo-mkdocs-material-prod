@@ -13,12 +13,21 @@ repo_url: 'https://github.com/goffinet/demo-mkdocs-material/'
 
 # Theme
 
-theme_dir: 'material/'
-theme: 'material'
+theme:
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
 
 # Options
 
-extra:
   language: fr
   feature:
     tabs: false
@@ -28,6 +37,8 @@ extra:
   disqus: 'www-goffinet-org'
   logo:
     icon: 'school'
+
+extra:
   social:
     - type: 'github'
       link: 'https://github.com/goffinet'
