@@ -34,7 +34,9 @@ theme:
   palette:
     primary: 'blue'
     accent: 'purple'
-  disqus: 'www-goffinet-org'
+  font:
+    text: Roboto
+    code: Roboto Mono
   logo:
     icon: 'school'
 
